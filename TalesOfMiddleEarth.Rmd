@@ -1,0 +1,347 @@
+---
+title: "MTG Tales of Middle Earth Set"
+author: "Ben Keel"
+date: "2023-06-26"
+output: html_document
+---
+
+```{r setup, include=FALSE, warning=FALSE}
+
+library(tidyverse)
+library(readr)
+library(sf)
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(tigris)
+library(viridis)
+library(dplyr)
+library(tidycensus)
+library(ggplot2)
+library(lubridate)
+library(janitor)
+library(stringi)
+
+library(tm)
+library(RTextTools)
+library(SnowballC)
+
+options(scipen = 999)
+
+g <- glimpse
+
+```
+
+## Data Needs
+
+Ultimate data needs columns:
+  -Card name
+  -Card color
+  -Quote Text (Verbatim)
+  -Quote Text (Clean)
+  -Book
+  -Chapter of Book
+  -Sentence before
+  -Sentence after
+
+Data scraped from Scryfall:
+  -Card name
+  -Card Cost
+  -Card Color
+  -Quote Text (verbatim)
+
+```{r scryfall data import}
+
+ft <- read_csv("scryfall_extract.csv")
+
+g(ft)
+
+```
+```{r scryfall data cleaning}
+
+ft_clean <- ft%>%
+  filter(!(is.na(Text)))%>%
+  filter(!duplicated(Text))%>%
+  mutate(text_clean = stri_replace_all_regex(Text, 
+                                             pattern = c("“", "”", "—(.+)"),
+                                             replacement = c(""),
+                                             vectorize=FALSE),
+         text_abbr = substring(text_clean, 1, 18),
+         book = NA,
+         chapter = NA)
+
+```
+
+
+```{r chapter imports fellowship}
+
+import_txt_files <- function(folder_path, abbr) {
+  file_list <- list.files(folder_path, pattern="\\.txt$", full.names=TRUE)
+
+  imported_data <- list()
+  
+  for (i in seq_along(file_list)) {
+    variable_name <- paste0(abbr, i)
+    file_path <- file_list[i]
+    file_data <- readLines(file_path)
+    imported_data[[variable_name]] <- file_data
+  }
+  
+  return(imported_data)
+}
+
+fellowship <- import_txt_files("./fellowship-chapters", "fs")
+twotowers <- import_txt_files("./twotowers-chapters", "tt")
+return <- import_txt_files("./return-chapters", "rk")
+
+```
+
+```{r}
+
+#doesn't work
+ft_clean$book <- ifelse(match(ft_clean$book, fellowship), "fs", 
+                        ifelse(match(ft_clean$book, twotowers), "tt", 
+                          ifelse(match(ft_clean$book, return), "rk", NA)))
+
+```
+
+Defining a function that loops through each text item in scryfall extract. It works for half of the items. 
+
+```{r test check first chapter, warning=FALSE}
+
+find_txt_match <- function(textQuote) {
+  #loop through the two towers text and find the location of any match
+  chapter <- ""
+  print(textQuote)
+  for (i in 1:length(fellowship)){
+        if (grepl(textQuote, fellowship[i])) {
+      chapter <- names(fellowship[i])
+    }
+  }
+  if (chapter == ""){
+    for (i in 1:length(twotowers)) {
+      if (grepl(textQuote, twotowers[i])) {
+        chapter <- names(twotowers[i])
+      }
+    }
+  }
+  if (chapter == "") {
+        for (i in 1:length(return)) {
+      if (grepl(textQuote, return[i])) {
+        chapter <- names(return[i])
+      }
+    }
+  }
+  print(chapter)
+  return(chapter)
+}
+
+ft_clean$chapter <- lapply(ft_clean$text_abbr, FUN = find_txt_match)
+
+sum(ft_clean$chapter == "")
+
+ft_clean <-  ft_clean %>%
+  mutate(book = substr(chapter, 1, 2))
+
+table(ft_clean$book)
+
+#ft_clean <- ft_clean%>%
+#  mutate(chapter = find_txt_match(text_abbr))
+
+```
+
+
+```{r book reconfigure}
+
+toSpace <- content_transformer(function(x, pattern) gsub(pattern, " ", x))
+
+ft_corpus <- Corpus(VectorSource(ft_clean$text_clean))
+ft_corpus <- tm_map(ft_corpus, tolower)
+ft_corpus <- tm_map(ft_corpus, removePunctuation)
+ft_corpus <- tm_map(ft_corpus, toSpace, "\n")
+ft_corpus <- tm_map(ft_corpus, toSpace, "\n")
+ft_corpus <- tm_map(ft_corpus, stripWhitespace)
+
+ft_clean_corp <- ft_clean%>%
+  cbind(data.frame(text_corpus=sapply(ft_corpus, identity), stringsAsFactors = FALSE))
+
+fsCorpus <- Corpus(VectorSource(fellowship))
+fsCorpus <- tm_map(fsCorpus, tolower)
+fsCorpus <- tm_map(fsCorpus, toSpace, "\n")
+fsCorpus <- tm_map(fsCorpus, removePunctuation)
+fsCorpus <- tm_map(fsCorpus, stripWhitespace)
+
+ttCorpus <- Corpus(VectorSource(twotowers))
+ttCorpus <- tm_map(ttCorpus, tolower)
+ttCorpus <- tm_map(ttCorpus, toSpace, "\n")
+ttCorpus <- tm_map(ttCorpus, removePunctuation)
+ttCorpus <- tm_map(ttCorpus, stripWhitespace)
+
+rkCorpus <- Corpus(VectorSource(return))
+rkCorpus <- tm_map(rkCorpus, tolower)
+rkCorpus <- tm_map(rkCorpus, toSpace, "\n")
+rkCorpus <- tm_map(rkCorpus, removePunctuation)
+rkCorpus <- tm_map(rkCorpus, stripWhitespace)
+
+```
+The code below only leaves 15 cards without a chapter.
+
+```{r check through corpi, warning=FALSE}
+#Checking if the corpi can catch a match
+grepl(ft_corpus[["3"]][["content"]], ttCorpus[["1"]][["content"]])
+
+#Defining function for whole loop
+find_corpi_match <- function(textQuote) {
+  #loop through the two towers text and find the location of any match
+  chapter <- ""
+  print(textQuote)
+  for (i in 1:length(fsCorpus)){
+        if (grepl(textQuote, fsCorpus[[as.character(i)]][["content"]])) {
+      chapter <- paste0("fs", fsCorpus[[as.character(i)]][["meta"]]$id)
+    }
+  }
+  if (chapter == ""){
+    for (i in 1:length(ttCorpus)){
+          if (grepl(textQuote, ttCorpus[[as.character(i)]][["content"]])) {
+        chapter <- paste0("tt", ttCorpus[[as.character(i)]][["meta"]]$id)
+      }
+    }
+  }
+  if (chapter == "") {
+    for (i in 1:length(rkCorpus)){
+          if (grepl(textQuote, rkCorpus[[as.character(i)]][["content"]])) {
+        chapter <- paste0("rk", rkCorpus[[as.character(i)]][["meta"]]$id)
+      }
+    }
+  }
+  print(chapter)
+  return(chapter)
+}
+
+#Bad Matching
+#ft_clean_corp$chapter <- lapply(ft_clean_corp$text_corpus, FUN = find_corpi_match)
+
+#Truncated matching 
+ft_clean_corp <- ft_clean_corp%>%
+  mutate(text_corpus_abbr = substr(text_corpus, 1, 18),
+         text_corpus_end = stri_sub(text_corpus, -18, -1))
+
+ft_clean_corp$chapter <- lapply(ft_clean_corp$text_corpus_abbr, FUN = find_corpi_match)
+
+sum(ft_clean_corp$chapter != "")
+ 
+
+
+ft_missing <- ft_clean_corp%>%
+  filter(ft_clean_corp$chapter == "")
+
+ft_missing$chapter <- lapply(ft_missing$text_corpus_end, FUN = find_corpi_match)
+
+ft_clean_corp <- ft_clean_corp%>%
+    filter(ft_clean_corp$chapter != "")%>%
+    rbind(ft_missing)
+
+ft_clean_corp <-  ft_clean_corp %>%
+  mutate(book = substr(chapter, 1, 2))
+
+table(ft_clean_corp$book)
+
+#ft_clean <- ft_clean%>%
+#  mutate(chapter = find_txt_match(text_abbr))
+
+```
+
+  -Card name
+  -Card color
+  -Quote Text (Verbatim)
+  -Quote Text (Clean)
+  -Book
+  -Chapter of Book
+  
+Stretch..?
+  -Sentence before
+  -Sentence after
+
+```{r cleaning the data table}
+
+tome <- ft_clean_corp%>%
+  dplyr::select(card_name, cardColorList, Text, text_corpus, book, chapter)
+
+tome$chapter <- as.character(tome$chapter)
+
+write_csv(tome, "./tome.csv")
+
+
+```
+
+Reversing, just to be sure that items were categorized correctly.
+
+```{r check through corpi in reverse, warning=FALSE}
+
+#Defining function for whole loop
+find_corpi_match_rev <- function(textQuote) {
+  #loop through the two towers text and find the location of any match
+  chapter <- ""
+  print(textQuote)
+  for (i in 1:length(rkCorpus)){
+    if (grepl(textQuote, rkCorpus[[as.character(i)]][["content"]])) {
+      chapter <- paste0("rk", rkCorpus[[as.character(i)]][["meta"]]$id)
+    }
+  }
+  if (chapter == ""){
+    for (i in 1:length(ttCorpus)){
+          if (grepl(textQuote, ttCorpus[[as.character(i)]][["content"]])) {
+        chapter <- paste0("tt", ttCorpus[[as.character(i)]][["meta"]]$id)
+      }
+    }
+  }
+  if (chapter == "") {
+    for (i in 1:length(fsCorpus)){
+      if (grepl(textQuote, fsCorpus[[as.character(i)]][["content"]])) {
+        chapter <- paste0("fs", fsCorpus[[as.character(i)]][["meta"]]$id)
+      }
+    }
+  }
+  print(chapter)
+  return(chapter)
+}
+
+#Bad Matching
+#ft_clean_corp$chapter <- lapply(ft_clean_corp$text_corpus, FUN = find_corpi_match)
+
+#Truncated matching 
+ft_clean_corpR <- ft_clean_corp%>%
+  mutate(text_corpus_abbr = substr(text_corpus, 1, 24),
+         text_corpus_end = stri_sub(text_corpus, -24, -1))
+
+ft_clean_corpR$chapter <- lapply(ft_clean_corpR$text_corpus_abbr, FUN = find_corpi_match_rev)
+
+sum(ft_clean_corpR$chapter != "")
+ 
+
+ft_missingR <- ft_clean_corpR%>%
+  filter(ft_clean_corpR$chapter == "")
+
+ft_missingR$chapter <- lapply(ft_missingR$text_corpus_end, FUN = find_corpi_match_rev)
+
+ft_clean_corpR <- ft_clean_corpR%>%
+    filter(ft_clean_corpR$chapter != "")%>%
+    rbind(ft_missingR)
+
+ft_clean_corpR <-  ft_clean_corpR %>%
+  mutate(book = substr(chapter, 1, 2))
+
+table(ft_clean_corpR$book)
+
+
+ft_check <- ft_clean_corp %>%
+  left_join(dplyr::select(ft_clean_corpR, card_name, chapter), by="card_name")%>%
+  dplyr::select(card_name, chapter.x, chapter.y, text_corpus)%>%
+  rename(chapterFirst = chapter.x,
+         chapterReverse = chapter.y)%>%
+
+ft_check$chapterFirst <- enc2utf8(as.character(ft_check$chapterFirst))
+ft_check$chapterReverse <- enc2utf8(as.character(ft_check$chapterReverse))
+
+
+```

@@ -1,0 +1,546 @@
+Text,cardColorList,card_name,cost
+Wormtongue bared his teeth; and then with a hissing breath he spat before the king’s feet.,W,Banish from Edoras,{4}{W}
+The Tooks marched in with Pippin at their head. Merry now had enough sturdy Hobbitry to deal with the ruffians.,W,The Battle of Bywater,{1}{W}{W}
+NA,W,Bill the Pony,{3}{W}
+"“Farewell, Aragorn! Go to Minas Tirith and save my people!”",W,"Boromir, Warden of the Tower",{2}{W}
+NA,W,Dawn of a New Age,{1}{W}
+The sword glinted in the westering sun.,W,Dúnedain Blade,{1}{W}
+NA,W,Eagles of the North,{5}{W}
+NA,W,Eastfarthing Farmer,{2}{W}
+"“The Rohirrim have long been the friends of the people of Gondor, though they are not akin to them.”
+—Aragorn",W,East-Mark Cavalier,{1}{W}
+NA,W,"Éowyn, Lady of Rohan",{2}{W}
+"“Gondor is in great need. Lord Denethor asks for all your strength and all your speed, lest Gondor fall at last.”",W,Errand-Rider of Gondor,{2}{W}
+"“How far can you bear me?” asked Gandalf.
+“Many leagues,” said Gwaihir, “but not to the ends of the earth. I was sent to bear tidings, not burdens.”",W,Escape from Orthanc,{W}
+"“Where now the horse and the rider?
+Where is the horn that was blowing?
+Where is the helm and the hauberk,
+and the bright hair flowing?”
+—Lament for the Rohirrim",W,Esquire of the King,{W}
+"“A chance for Faramir, Captain of Gondor, to show his quality.”",W,"Faramir, Field Commander",{3}{W}
+"Aragorn planted the new tree in the court by the fountain, and swiftly and gladly it began to grow.",W,Flowering of the White Tree,{W}{W}
+"“Cold be hand and heart and bone,
+and cold be sleep under stone:
+never more to wake on stony bed,
+never, till the Sun fails and the Moon is dead.”",W,Fog on the Barrow-Downs,{2}{W}
+NA,W,Forge Anew,{2}{W}
+NA,W,"Frodo, Sauron's Bane",{W}
+NA,W,Gandalf the White,{3}{W}{W}
+"“One for the Shire!” cried Aragorn. “The Hobbit’s bite is deep! You have a good blade, Frodo son of Drogo!”",W,Hobbit's Sting,{1}{W}
+"He passed over Udûn and Gorgoroth and saw all the land in ruin and tumult beneath him, and before him Mount Doom blazing, pouring out its fire.",W,"Landroval, Horizon Witness",{4}{W}
+"“In the days of Isildur, the Ruling Ring passed out of all knowledge.”
+—Elrond",W,Lost to Legend,{W}{W}
+"The ruffian knew too little of Hobbits to understand his peril. Foolishly, he decided to fight.",W,Nimble Hobbit,{1}{W}
+The Captains of the West came at last to challenge the Black Gate and the might of Mordor.,W,"Now for Wrath, Now for Ruin!",{3}{W}
+"Orcs were digging deep trenches in a huge ring, just out of bowshot of the walls, while the Men of Minas Tirith looked on, unable to hinder them.",W,Protector of Gondor,{3}{W}
+"As Faramir and Éowyn stood so, their hands met and clasped, though they did not know it.",W,Reprieve,{1}{W}
+NA,W,Rosie Cotton of South Lane,{2}{W}
+"“You’ve hurt my master, you brute, and you’ll pay for it.”",W,Samwise the Stouthearted,{1}{W}
+The Hobbits of the Shire were fond of six meals a day—when they could get them.,W,Second Breakfast,{2}{W}
+"“You’re arrested for Gate-breaking, and Tearing up of Rules, and Trespassing, and Bribing Guards with Food.”",W,Shire Shirriff,{1}{W}
+How had it come to be on his finger? He wondered if the Ring itself had not played him a trick.,W,Slip On the Ring,{1}{W}
+"“The Dead awaken; for the hour is come for the oathbreakers.”
+—Malbeth the Seer",W,Soldier of the Grey Host,{3}{W}
+"“The Enemy must pay dearly for the crossing of the River.”
+—Denethor",W,Stalwarts of Osgiliath,{4}{W}
+NA,W,Tale of Tinúviel,{3}{W}{W}
+"The Tooks came, a hundred strong, from Tuckborough and the Green Hills.",W,Took Reaper,{1}{W}
+NA,W,War of the Last Alliance,{3}{W}
+"“The Orcs were greater in number than we counted on. Great Orcs, who also bore the White Hand of Isengard.”
+—Éomer",W,Westfold Rider,{1}{W}
+"It raised the whip, and the thongs whined and cracked. Fire came from its nostrils. But Gandalf stood firm.",W,You Cannot Pass!,{W}
+“Wear this now in memory of Elfstone and Evenstar with whom your life has been woven!”,U,Arwen's Gift,{3}{U}
+NA,U,The Bath Song,{3}{U}
+NA,U,Bewitching Leechcraft,{1}{U}
+NA,U,"Bill Ferny, Bree Swindler",{1}{U}
+"As Bilbo finished his speech, he slipped the ring on his finger, and he was never seen by any Hobbit in Hobbiton again.",U,Birthday Escape,{U}
+"“I looked on Aragorn and thought how great and terrible a Lord he might have become, had he taken the Ring for himself. Not for naught does Mordor fear him.”
+—Legolas",U,Borne Upon a Wind,{1}{U}
+"“There is a great fleet drawing near to the mouths of Anduin, manned by the Corsairs of Umbar in the South. They have long ceased to fear the might of Gondor.”
+—Beregond",U,Captain of Umbar,{2}{U}
+"“I will take the Ring to Mordor, though I do not know the way.”
+—Frodo",U,Council's Deliberation,{1}{U}
+"“Tell Gandalf that he must seek my aid at once.”
+—Saruman",U,Deceive the Messenger,{U}
+"“I shall not be dark, but beautiful and terrible as the Morning and the Night! All shall love me and despair!”",U,Dreadful as the Storm,{2}{U}
+"“This is the hour of the Shire-folk, when they arise from their quiet fields to shake the towers and counsels of the Great. Who of all the Wise could have foreseen it?”",U,"Elrond, Lord of Rivendell",{2}{U}
+"“After a hundred years, Hobbits can still surprise you at a pinch.”",U,"Gandalf, Friend of the Shire",{3}{U}
+"The Elves of Lórien took Dol Guldur. Galadriel threw down its walls and laid bare its pits, and the forest was cleansed.",U,Glorious Gale,{1}{U}
+“Fear nothing! For tonight you are under the roof of Tom Bombadil.”,U,"Goldberry, River-Daughter",{1}{U}
+"It was an old tradition that beyond the Shire stood the Grey Havens, from which at times elven-ships set sail, never to return.",U,Grey Havens Navigator,{2}{U}
+"“If you will try to run away you must be tied; but we don’t wish to hurt you.”
+—Sam",U,Hithlain Knots,{1}{U}
+"The black horses were filled with madness, and leaping forward in terror they bore their riders into the rushing flood.",U,Horses of the Bruinen,{3}{U}{U}
+“I have been too busy with this and that to heed all the crying and shouting. All I hope is that those murdering devils do not come to this House and trouble the sick.”,U,Ioreth of the Healing House,{2}{U}
+"“They took me and set me on the pinnacle of Orthanc. I stood alone on an island in the clouds; I had no chance of escape, and my days were bitter and cold.”
+—Gandalf",U,Isolation at Orthanc,{3}{U}
+"After their reunion, the Hobbits spent many days in Ithilien. The stream that flowed from the falls of Henneth Annûn could be heard in the night as it rushed down through its rocky gate.",U,Ithilien Kingfisher,{2}{U}
+And so the companies came and were hailed and cheered and passed through the Gate.,U,Knights of Dol Amroth,{3}{U}
+"“Look on us now with friendly eyes! Behold the trees of the Naith of Lórien and be glad!”
+—Haldir",U,Lórien Revealed,{3}{U}{U}
+"“To the Sea, to the Sea!”",U,Lost Isle Calling,{1}{U}
+"“Then come! We have need of speed greater than any wind, outmatching the wings of the Nazgûl.”
+—Gandalf",U,"Meneldor, Swift Savior",{3}{U}
+"“But there are some of us still who go abroad for the gathering of news and the watching of our enemies.”
+—Haldir",U,Nimrodel Watcher,{1}{U}
+“The Corsairs are upon us! Back to the walls! Back to the City before all are overwhelmed!”,U,Pelargir Survivor,{1}{U}
+“I showed the blade reforged to him. He is not so mighty yet that he is above fear.”,U,Press the Enemy,{2}{U}{U}
+“We have a new errand on this journey: to ambush the Men of Harad.”,U,Rangers of Ithilien,{2}{U}{U}
+“Sauron’s victory is at hand; and there will be rich reward for those who aided it.”,U,Saruman the White,{4}{U}
+"“I gave you the chance of aiding me willingly.”
+—Saruman",U,Saruman's Trickery,{1}{U}{U}
+NA,U,Scroll of Isildur,{2}{U}
+"Frodo’s heart sank. This was too much like trickery, and certainly what he did would seem a treachery to the poor treacherous creature.",U,Soothing of Sméagol,{1}{U}
+"“Fool of a Took! This is a serious journey, not a Hobbit walking-party. Throw yourself in next time, and then you will be no further nuisance. Now be quiet!”",U,Stern Scolding,{U}
+"Isengard had once been filled with fruitful trees, but no green thing grew there in the latter days of Saruman.",U,Storm of Saruman,{4}{U}{U}
+NA,U,Surrounded by Orcs,{3}{U}
+NA,U,Treason of Isengard,{2}{U}
+NA,U,The Watcher in the Water,{3}{U}{U}
+"The branches of the willow began to sway violently. Frodo called for help, but he could hardly hear his own voice: it was blown away from him by the willow-wind and drowned in a clamor of leaves.",U,Willow-Wind,{4}{U}
+"“I tried to take the Ring from Frodo. I am sorry. I have paid.”
+—Boromir",B,Bitter Downfall,{3}{B}
+"“When the black breath blows, death’s shadow grows.”
+—A rhyme of old days",B,The Black Breath,{2}{B}
+“The Ring is mine!”,B,Call of the Ring,{1}{B}
+"“Spies feared on Stairs. Double vigilance. Patrol to head of Stairs.”
+—Shagrat’s orders",B,Cirith Ungol Patrol,{4}{B}
+"“I think it is a sad story, and it might have happened to others, even to some Hobbits that I have known.”
+—Gandalf",B,Claim the Precious,{1}{B}{B}
+"“What’s that, Strider? It don’t look like a cloud.”
+—Sam",B,Dunland Crebain,{2}{B}
+"An army of Easterlings charged forth, while from the hills poured Orcs innumerable.",B,Easterling Vanguard,{1}{B}
+"“They’ll take it, steal my Precious. Thieves. We hates them.”",B,"Gollum, Patient Plotter",{1}{B}
+"“It was Pity that stayed Bilbo’s hand. Do not be too eager to deal out death in judgment; Gollum has some part to play yet, before the end.”
+—Gandalf, to Frodo",B,Gollum's Bite,{B}
+NA,B,Gorbag of Minas Morgul,{1}{B}
+NA,B,"Gothmog, Morgul Lieutenant",{3}{B}
+"“Do not weary yourself, or tax too heavily your strength. Let others deal with these irksome guests.”",B,Gríma Wormtongue,{2}{B}
+NA,B,"Grond, the Gatebreaker",{3}{B}
+"“You should not look in when the candles are lit.”
+—Gollum",B,Haunt of the Dead Marshes,{B}
+"Isildur cut the Ring from Sauron’s hand with the hilt-shard of his father’s sword, and Sauron himself was overthrown.",B,Isildur's Fateful Strike,{2}{B}{B}
+"Even as the Balrog fell, it swung its whip, and the thongs lashed and curled about Gandalf’s knees, dragging him to the brink of the abyss. “Fly, you fools!” he cried, and was gone.",B,Lash of the Balrog,{B}
+NA,B,Lobelia Sackville-Baggins,{2}{B}
+"Like a storm, they broke upon the line of the Men of Gondor.",B,March from the Black Gate,{1}{B}
+"“The enemy has many spies and many ways of hearing.”
+—Gandalf",B,Mirkwood Bats,{3}{B}
+"“Orcs, thousands of Orcses. Nice Hobbits mustn’t go to those places.”
+—Gollum",B,Mordor Muster,{1}{B}
+NA,B,Mordor Trebuchet,{2}{B}
+Frodo felt a pain like a dart of poisoned ice pierce his left shoulder.,B,Morgul-Knife Wound,{1}{B}
+"“And that’s the end of that. A nasty end for Saruman, and I wish I needn’t have seen it; but it’s a good riddance.”
+—Sam",B,Nasty End,{1}{B}
+NA,B,Nazgûl,{2}{B}
+NA,B,Oath of the Grey Host,{3}{B}
+NA,B,One Ring to Rule Them All,{2}{B}{B}
+NA,B,Orcish Bowmasters,{1}{B}
+NA,B,Orcish Medicine,{1}{B}
+"“By all the signs, there’s a large warrior loose, with an Elf-sword, and an axe as well maybe.” Gorbag spat. Sam smiled grimly at this description of himself.",B,Sam's Desperate Rescue,{B}
+NA,B,"Sauron, the Necromancer",{3}{B}{B}
+"As Frodo put on the Ring, Sauron was suddenly aware of the magnitude of his own folly. His wrath blazed in consuming flame, but his fear rose like black smoke.",B,Shadow of the Enemy,{3}{B}{B}{B}
+"As Frodo ran forward, eager, rejoicing to be free, Shelob with hideous speed came behind and stung him in the neck.",B,Shelob's Ambush,{B}
+"A shuddering howl broke from him, as if he were a captain summoning his pack to the assault.",B,Snarling Warg,{3}{B}
+"In Mordor, all that he knew was forced from him.",B,The Torment of Gollum,{3}{B}
+"“A great cave-troll, I think. There is no hope of escape that way.”
+—Gandalf",B,Troll of Khazad-dûm,{5}{B}
+"“What of the dawn? We are the Uruk-hai; we do not stop the fight for night or day, for fair weather or for storm. We come to kill, by sun or moon. What of the dawn?”",B,Uruk-hai Berserker,{2}{B}
+NA,B,Voracious Fell Beast,{4}{B}{B}
+NA,B,Witch-king of Angmar,{3}{B}{B}
+"“An Orc shot Balin from behind a stone. We slew the Orc, but many more came.”
+—Book of Mazarbul",R,Battle-Scarred Goblin,{1}{R}
+NA,R,Book of Mazarbul,{2}{R}
+“It might have been mine. It should be mine. Give it to me!”,R,Breaking of the Fellowship,{1}{R}
+"“But for Gollum, I could not have destroyed the Ring. So let us forgive him! For the Quest is achieved, and now all is over.”
+—Frodo",R,Cast into the Fire,{1}{R}
+"“The Nazgûl closed round at night, and I was besieged. Such light and flame cannot have been seen on Weathertop since the war-beacons of old.”
+—Gandalf",R,Display of Power,{1}{R}{R}
+"“Need brooks no delay, yet late is better than never.”",R,"Éomer, Marshal of Rohan",{2}{R}{R}
+But northward the white crest of Éomer led the great front of the Rohirrim which he had again gathered and marshaled.,R,Éomer of the Riddermark,{4}{R}
+"“We make good armor and keen swords, but we cannot again make mail or blade to match those that our fathers made before the dragon came.”
+—Glóin",R,Erebor Flamesmith,{1}{R}
+"Down from the hills leaped Erkenbrand, lord of Westfold, and the hosts of Isengard roared in fear.",R,"Erkenbrand, Lord of Westfold",{3}{R}
+NA,R,Fall of Cair Andros,{2}{R}
+"“Open, in the name of Mordor!”",R,"Fear, Fire, Foes!",{X}{R}
+"Ash nazg durbatulûk, ash nazg gimbatul, ash nazg thrakatulûk agh burzum-ishi krimpatul.",R,Fiery Inscription,{2}{R}
+The barricade was scattered as if by a thunderbolt.,R,Fire of Orthanc,{3}{R}
+NA,R,Foray of Orcs,{3}{R}
+“Twenty-one!” cried Gimli. He hewed a two- handed stroke and laid the last Orc before his feet. “Now my count passes Master Legolas.”,R,"Gimli, Counter of Kills",{3}{R}
+NA,R,Gimli's Axe,{2}{R}
+"“Two!” said Gimli, patting his axe.",R,Gimli's Fury,{1}{R}
+NA,R,"Glóin, Dwarf Emissary",{2}{R}
+"“Let us hope that fire now lies between us and pursuit. Come! There is no time to lose.”
+—Gandalf",R,Goblin Fireleaper,{1}{R}
+NA,R,"Grishnákh, Brash Instigator",{2}{R}
+"“In the South the Haradrim are moving, and fear has fallen on all our coastlands.”
+—Hirgon, errand-rider of Gondor",R,Haradrim Spearmaster,{2}{R}
+NA,R,Hew the Entwood,{3}{R}{R}
+"“‘For a couple o’ pins,‘ says Troll, and grins, 'I’ll eat thee too and gnaw thy shins.’”
+—Sam",R,Improvised Club,{1}{R}
+"There was a rush of hoarse laughter, like the fall of sliding stones into a pit; amid the clamor a deep voice was raised in command.",R,Moria Marauder,{R}{R}
+NA,R,Oliphaunt,{5}{R}
+"Trolls were abroad, no longer dull-witted, but cunning and armed with dreadful weapons.",R,Olog-hai Crusher,{3}{R}
+"“It is a joy to us to see you return into your own.”
+—Éomer",R,Quarrel's End,{2}{R}
+"With a cry and a great noise they charged. Down from the gates they roared, over the causeway they swept, and they drove through the hosts of Isengard as a wind among grass.",R,Rally at the Hornburg,{1}{R}
+"“Keep close to the fire, with your faces outward! Get some of the longer sticks ready in your hands!”
+—Strider",R,Ranger's Firebrand,{R}
+"“The Orcs are in the Deep! Helm! Helm! Forth Helmingas!”
+—Gamling the Old",R,Relentless Rohirrim,{3}{R}
+Over the low hills the horns were sounding. Hastening down the long slopes were a thousand men on foot; their swords were in their hands.,R,Rising of the Day,{2}{R}
+"“Dire deeds awake, dark is it eastward. Let horse be bridled, horn be sounded!”
+—Théoden",R,Rohirrim Lancer,{R}
+"There was a horn-blast and a rush of feet, and Orcs one after another leaped into the chamber.",R,Rush the Room,{R}
+“No living man am I!”,R,Smite the Deathless,{1}{R}
+"“One ill turn deserves another.”
+—Saruman",R,Spiteful Banditry,{X}{R}{R}
+NA,R,Swarming of Moria,{2}{R}
+NA,R,There and Back Again,{3}{R}{R}
+"Drums rolled, fires leaped, and great engines drawn by beasts crawled across the field.",R,Warbeast of Gorgoroth,{4}{R}
+"“Dwarves’ tongues run on when speaking of their handiwork, they say.”
+—Glóin",G,Bag End Porter,{3}{G}
+"“Hey dol! merry dol! ring a dong dillo!
+Ring a dong! hop along! fal lal the willow!
+Tom Bom, jolly Tom, Tom Bombadillo!”",G,Bombadil's Song,{1}{G}
+"“Your land must be a realm of peace and content, and there must gardeners be in high honor.”
+—Faramir",G,Brandywine Farmer,{2}{G}
+"His eyes were keen as lances in starlight, and yet profound, the wells of deep memory.",G,Celeborn the Wise,{3}{G}
+"“It is said, ‘Go not to the Elves for counsel, for they will say both no and yes.’”
+—Frodo",G,Chance-Met Elves,{2}{G}
+"There were toys the Hobbit-children had never seen before, all beautiful, and some obviously magical.",G,Delighted Halfling,{G}
+“Aragorn has need of his kindred. Let the Dúnedain go to him in Rohan!”,G,Dúnedain Rangers,{3}{G}
+"“A Elbereth Gilthoniel, silivren penna míriel o menel aglar elenath!”",G,Elven Chorus,{3}{G}
+"“Few can foresee whither their road will lead them, till they come to its end.”
+—Legolas",G,Elven Farsight,{G}
+"“They stand watching endlessly over the trees. It is difficult to see them moving, but they can move very quickly if they are angry.”
+—Merry",G,Enraged Huorn,{4}{G}
+“Welcome to the Treegarth of Orthanc!”,G,Entish Restoration,{2}{G}
+"“I came and called the trees by their long names, but they did not hear or answer—they lay dead.”
+—Quickbeam",G,Ent's Fury,{1}{G}
+NA,G,Fall of Gil-galad,{1}{G}
+"“I am an Ent. Fangorn is my name according to some, Treebeard others make it.”",G,"Fangorn, Tree Shepherd",{4}{G}{G}{G}
+NA,G,Galadhrim Bow,{2}{G}
+"“I shall lead you well, and the paths are smooth and straight.”",G,Galadhrim Guide,{3}{G}
+NA,G,Generous Ent,{5}{G}
+"“None have ever made to me a request so bold and yet so courteous.”
+—Galadriel",G,Gift of Strands,{3}{G}
+"On the Elf-lord’s brow sat wisdom, and in his hand was strength.",G,"Glorfindel, Dauntless Rescuer",{2}{G}
+"“To Isengard with doom we come!
+With doom we come, with doom we come!”",G,Last March of the Ents,{6}{G}{G}
+NA,G,"Legolas, Master Archer",{1}{G}{G}
+NA,G,Long List of the Ents,{G}
+"“That was the custom of the Elves of Lórien, to dwell in the trees. Therefore they were called Galadhrim, the Tree-people.”
+—Legolas",G,Lothlórien Lookout,{1}{G}
+"“For you in all the lands of the West there will ever be a welcome, dearest friend.”
+—Aragorn",G,Many Partings,{G}
+"“My dear old Hobbit, you don’t allow for the inquisitiveness of friends. I have known about the existence of the Ring for years.”",G,Meriadoc Brandybuck,{1}{G}
+"Far and wide Shelob’s lesser broods spread from glen to glen, to Dol Guldur and the fastnesses of Mirkwood.",G,Mirkwood Spider,{G}
+"“But still the sunken stars appear
+In dark and windless Mirrormere;
+There lies his crown in water deep,
+Till Durin wakes again from sleep.”
+—Gimli’s song",G,Mirrormere Guardian,{2}{G}
+"“They won’t harm you—not unless I tell ‘em to. Here, Grip! Fang! Heel!”
+—Farmer Maggot",G,Mushroom Watchdogs,{1}{G}
+“Sam! Get breakfast ready for half-past nine!”,G,Peregrin Took,{2}{G}
+"Pippin stabbed upwards, and the written blade of Westernesse pierced through the hide and went deep into the vitals of the troll.",G,Pippin's Bravery,{G}
+"“It is only a nickname, of course. They have called me that ever since I said yes to an elder Ent before he had finished his question.”",G,"Quickbeam, Upstart Ent",{4}{G}{G}
+NA,G,Radagast the Brown,{2}{G}{G}
+"In the Party Field, a beautiful young sapling leaped up: it was indeed a mallorn, and it was the wonder of the neighborhood.",G,Revive the Shire,{1}{G}
+NA,G,The Ring Goes South,{3}{G}
+NA,G,Shortcut to Mushrooms,{1}{G}
+"“I wish there were more of your kin among us, Gimli. But even more would I give for a hundred good archers of Mirkwood. We shall need them.”
+—Legolas",G,Shower of Arrows,{2}{G}
+"“Stew the rabbits?” squealed Gollum in dismay. “Spoil beautiful meat Sméagol saved saved for you, poor hungry Sméagol! What for?”",G,Stew the Coneys,{2}{G}
+"“Road is forgotten, but not by Wild Folk. Over hill and behind hill it lies still under grass and tree. Wild Folk will show you that road.”",G,Wose Pathfinder,{1}{G}
+NA,M,"Aragorn, Company Leader",{1}{G}{W}
+NA,M,"Aragorn, the Uniter",{R}{G}{W}{U}
+NA,M,"Arwen, Mortal Queen",{1}{G}{W}
+"She was called Undómiel, for she was the Evenstar of her people.",M,Arwen Undómiel,{G}{U}
+NA,M,"The Balrog, Durin's Bane",{5}{B}{R}
+“I don’t know half of you half as well as I should like; and I like less than half of you half as well as you deserve.”,M,"Bilbo, Retired Burglar",{1}{U}{R}
+"“I hope you’ll be comfortable. You’ll be wanting supper, I don’t doubt. As soon as may be. This way now!”",M,"Butterbur, Bree Innkeeper",{2}{G}{W}
+“Much must be risked in war.”,M,"Denethor, Ruling Steward",{1}{W}{B}
+"“Speak, friend, and enter.”",M,Doors of Durin,{3}{R}{G}
+NA,M,"Elrond, Master of Healing",{2}{G}{U}
+“Am I not of the House of Eorl? I have waited on faltering feet long enough.”,M,"Éowyn, Fearless Knight",{2}{R}{W}
+"The City was made more fair than it had ever been, even in the days of its first glory.",M,"Faramir, Prince of Ithilien",{2}{W}{U}
+"There was a ringing clash and a stab of white fire, and the Balrog fell back.",M,Flame of Anor,{1}{U}{R}
+"“Forty-two, Master Legolas!”
+—Gimli",M,Friendly Rivalry,{R}{G}
+"“Few have ever come hither through greater peril or on an errand more urgent.”
+—Elrond",M,Frodo Baggins,{G}{W}
+"“I pass the test. I will diminish, and go into the West, and remain Galadriel.”",M,Galadriel of Lothlórien,{1}{G}{U}
+NA,M,Gandalf the Grey,{3}{U}{R}
+"There was a crack, and the staff split asunder in Saruman’s hand, and the head of it fell down at Gandalf’s feet.",M,Gandalf's Sanction,{1}{U}{R}
+NA,M,"Gimli, Mournful Avenger",{1}{R}{G}
+"There came Gwaihir the Windlord, greatest of all the Eagles of the North, mightiest of the descendants of old Thorondor.",M,Gwaihir the Windlord,{4}{W}{U}
+NA,M,King of the Oathbreakers,{2}{W}{B}
+“Two?” said Legolas. “I make my tale twenty at the least.”,M,"Legolas, Counter of Kills",{2}{G}{U}
+"“Whatever is wrong in the Shire, Lotho will be at the bottom of it: you can be sure of that.”
+—Pippin",M,"Lotho, Corrupt Shirriff",{W}{B}
+"“We are the servants of Saruman the Wise, the White Hand: the Hand that gives us Man’s-flesh to eat.”",M,"Mauhúr, Uruk-hai Captain",{B}{R}
+"Then suddenly Merry felt it at last, beyond doubt: a change. Wind was in his face!",M,"Merry, Esquire of Rohan",{R}{W}
+NA,M,The Mouth of Sauron,{3}{U}{B}
+NA,M,Old Man Willow,{2}{B}{G}
+"“Here do I swear fealty to Gondor, until my lord release me, or death take me.”",M,"Pippin, Guard of the Citadel",{W}{U}
+"“The Lord Aragorn I hold to be my liege lord, whether he claim it or no. His wish is to me a command.”",M,Prince Imrahil the Fair,{W}{U}
+Frodo was able to see beneath their black wrappings. In their white faces burned keen and merciless eyes.,M,Ringsight,{1}{U}{B}
+"In rode the Lord of the Nazgûl, under the archway that no enemy ever yet had passed, and all fled before his face.",M,Rise of the Witch-king,{2}{B}{G}
+NA,M,Samwise Gamgee,{G}{W}
+NA,M,Saruman of Many Colors,{3}{W}{U}{B}
+NA,M,"Sauron, the Dark Lord",{3}{U}{B}{R}
+"“He was dear to you, I see. And now he shall endure the slow torment of years.”",M,Sauron's Ransom,{1}{U}{B}
+"“Whose shall the horn be? Who shall call them from the grey twilight, the forgotten people? The heir of him to whom the oath they swore.”
+—Malbeth the Seer",M,Shadow Summoning,{W}{B}
+NA,M,"Shadowfax, Lord of Horses",{3}{R}{W}
+NA,M,"Shagrat, Loot Bearer",{2}{B}{R}
+NA,M,"Sharkey, Tyrant of the Shire",{2}{U}{B}
+NA,M,"Shelob, Child of Ungoliant",{4}{B}{G}
+NA,M,"Sméagol, Helpful Guide",{1}{B}{G}
+The greatest traveler and huntsman of this age of the world.,M,"Strider, Ranger of the North",{2}{R}{G}
+"“Dark have been my dreams of late, but I feel new-awakened. I only fear that already you have come too late, Gandalf.”",M,"Théoden, King of Rohan",{1}{R}{W}
+NA,M,Tom Bombadil,{W}{U}{B}{R}{G}
+“I am Uglúk. I command. I return to Isengard by the shortest road.”,M,Uglúk of the White Hand,{2}{B}{R}
+NA,C,"Andúril, Flame of the West",{3}
+NA,C,Barrow-Blade,{1}
+"The effect of the draught began at the toes, and rose steadily through every limb, bringing refreshment and vigor as it coursed upward, right to the tips of the hair.",C,Ent-Draught Basin,{2}
+NA,C,Glamdring,{2}
+NA,C,Horn of Gondor,{3}
+"“He that blows this horn shall set fear in the hearts of his enemies and joy in the hearts of his friends.”
+—Éowyn",C,Horn of the Mark,{2}
+"“Keep it secret, and keep it safe!”
+—Gandalf",C,Inherited Envelope,{3}
+They could eat of it and find new strength even as they ran.,C,Lembas,{2}
+"“Your Quest stands upon the edge of a knife. Stray but a little and it will fail, to the ruin of all. Yet hope remains while all the Company is true.”",C,Mirror of Galadriel,{2}
+NA,C,Mithril Coat,{3}
+NA,C,The One Ring,{4}
+NA,C,Palantír of Orthanc,{3}
+"“May it be a light to you in dark places, when all other lights go out.”",C,Phial of Galadriel,{3}
+"“How bright your garden looks!”
+—Gandalf",C,Shire Scarecrow,{2}
+NA,C,"Sting, the Glinting Dagger",{2}
+"“At the Stone of Erech they shall stand again and hear there a horn in the hills ringing.”
+—Malbeth the Seer",C,Stone of Erech,{1}
+NA,C,Wizard's Rockets,{1}
+"“Those who pass the gates of Barad-dûr do not return.”
+—Gandalf",C,Barad-dûr,
+"“Renewed shall be blade that was broken: The crownless again shall be king.”
+—Bilbo",C,Great Hall of the Citadel,
+"There dwelt Círdan the Shipwright, and some say he dwells there still, until the Last Ship sets sail into the West.",C,The Grey Havens,
+"“I would see the White Tree in flower again in the courts of the kings, and Minas Tirith in peace.”
+—Faramir",C,Minas Tirith,
+"“Moria! Moria! Wonder of the Northern world!”
+—Glóin",C,Mines of Moria,
+NA,C,Mount Doom,
+"“Were I to go where my heart dwells, I would now be wandering in the fair valley of Rivendell.”
+—Aragorn",C,Rivendell,
+"“You must start somewhere and have some roots, and the soil of the Shire is deep.”
+—Merry",C,The Shire,
+"Everything looked fresh, and the new green of Spring was shimmering in the fields.",C,Shire Terrace,
+NA,C,Plains,
+NA,C,Plains,
+NA,C,Island,
+NA,C,Island,
+NA,C,Swamp,
+NA,C,Swamp,
+NA,C,Mountain,
+NA,C,Mountain,
+NA,C,Forest,
+NA,C,Forest,
+NA,C,Plains,
+NA,C,Plains,
+NA,C,Island,
+NA,C,Island,
+NA,C,Swamp,
+NA,C,Swamp,
+NA,C,Mountain,
+NA,C,Mountain,
+NA,C,Forest,
+NA,C,Forest,
+NA,B,Nazgûl,{2}{B}
+NA,B,Nazgûl,{2}{B}
+NA,B,Nazgûl,{2}{B}
+NA,B,Nazgûl,{2}{B}
+NA,B,Nazgûl,{2}{B}
+NA,B,Nazgûl,{2}{B}
+NA,B,Nazgûl,{2}{B}
+NA,B,Nazgûl,{2}{B}
+NA,W,"Saradoc, Master of Buckland",{3}{W}
+"In the days of the Kings, most of the High Elves dwelt with Círdan or in the seaward lands of Lindon.",U,Elvish Mariner,{2}{U}
+NA,B,Ringwraiths,{4}{B}{B}
+NA,R,Assault on Osgiliath,{X}{R}{R}{R}
+Her father Samwise gave her the Red Book for safekeeping before he sailed into the West.,G,Elanor Gardner,{3}{G}
+"Aragorn the King Elessar wedded Arwen Undómiel, and the tale of their long waiting and labors came to fulfillment.",M,"Aragorn and Arwen, Wed",{4}{G}{W}
+There is an Eye in the Dark Tower that does not sleep.,M,"Sauron, the Lidless Eye",{3}{B}{R}
+Frodo’s heart flamed within him. He drew his sword and advanced.,W,"Frodo, Determined Hero",{1}{W}
+"He has passed through the fire and the abyss, and the enemy shall fear him.",W,"Gandalf, White Rider",{3}{W}
+"Now the cries of clear strong voices came ringing over the fields. They rode in: a long line of mail-clad Men, swift, shining, fell and fair to look upon. Suddenly they swept up with a noise like thunder, and the foremost horseman swerved.",W,Knight of the Keep,{2}{W}
+NA,B,"Gollum, Scheming Guide",{1}{B}
+“No living man may hinder me!”,B,"Witch-king, Bringer of Ruin",{4}{B}{B}
+NA,R,Fires of Mount Doom,{2}{R}
+"The fighting waxed furious on the fields of the Pelennor; and the din of arms rose upon high, with the crying of Men and the neighing of horses. But the hosts of Mordor were enheartened, and filled with a new fury they came yelling to the onset.",R,Goblin Assailant,{1}{R}
+NA,G,"Galadriel, Gift-Giver",{3}{G}{G}
+"An evil of the Ancient World, both a shadow and a flame.",M,"The Balrog, Flame of Udûn",{3}{B}{R}
+NA,C,Bilbo's Ring,{3}
+NA,C,The One Ring,{4}
+NA,W,"Boromir, Warden of the Tower",{2}{W}
+NA,W,"Faramir, Field Commander",{3}{W}
+NA,W,"Frodo, Sauron's Bane",{W}
+NA,W,Gandalf the White,{3}{W}{W}
+NA,W,Samwise the Stouthearted,{1}{W}
+NA,U,"Elrond, Lord of Rivendell",{2}{U}
+NA,U,"Gandalf, Friend of the Shire",{3}{U}
+NA,B,"Gollum, Patient Plotter",{1}{B}
+NA,B,"Sauron, the Necromancer",{3}{B}{B}
+NA,B,Witch-king of Angmar,{3}{B}{B}
+NA,R,"Gimli, Counter of Kills",{3}{R}
+NA,G,"Legolas, Master Archer",{1}{G}{G}
+NA,G,Meriadoc Brandybuck,{1}{G}
+NA,G,Peregrin Took,{2}{G}
+NA,M,"Aragorn, Company Leader",{1}{G}{W}
+NA,M,"Aragorn, the Uniter",{R}{G}{W}{U}
+NA,M,"Elrond, Master of Healing",{2}{G}{U}
+NA,M,"Faramir, Prince of Ithilien",{2}{W}{U}
+NA,M,Frodo Baggins,{G}{W}
+NA,M,Galadriel of Lothlórien,{1}{G}{U}
+NA,M,Gandalf the Grey,{3}{U}{R}
+NA,M,"Gimli, Mournful Avenger",{1}{R}{G}
+NA,M,"Legolas, Counter of Kills",{2}{G}{U}
+NA,M,"Merry, Esquire of Rohan",{R}{W}
+NA,M,"Pippin, Guard of the Citadel",{W}{U}
+NA,M,Samwise Gamgee,{G}{W}
+NA,M,Saruman of Many Colors,{3}{W}{U}{B}
+NA,M,"Sauron, the Dark Lord",{3}{U}{B}{R}
+NA,M,"Sméagol, Helpful Guide",{1}{B}{G}
+NA,M,Tom Bombadil,{W}{U}{B}{R}{G}
+“Much must be risked in war.”,M,"Denethor, Ruling Steward",{1}{W}{B}
+NA,C,Barad-dûr,
+NA,C,Minas Tirith,
+NA,C,Mines of Moria,
+NA,C,Mount Doom,
+NA,C,Rivendell,
+NA,C,The Shire,
+NA,C,Mines of Moria,
+NA,W,The Battle of Bywater,{1}{W}{W}
+NA,W,Dawn of a New Age,{1}{W}
+"Aragorn planted the new tree in the court by the fountain, and swiftly and gladly it began to grow.",W,Flowering of the White Tree,{W}{W}
+NA,W,Forge Anew,{2}{W}
+"“I looked on Aragorn and thought how great and terrible a Lord he might have become, had he taken the Ring for himself. Not for naught does Mordor fear him.”
+—Legolas",U,Borne Upon a Wind,{1}{U}
+NA,U,"Goldberry, River-Daughter",{1}{U}
+“I showed the blade reforged to him. He is not so mighty yet that he is above fear.”,U,Press the Enemy,{2}{U}{U}
+“We have a new errand on this journey: to ambush the Men of Harad.”,U,Rangers of Ithilien,{2}{U}{U}
+NA,U,The Watcher in the Water,{3}{U}{U}
+“The Ring is mine!”,B,Call of the Ring,{1}{B}
+"Isildur cut the Ring from Sauron’s hand with the hilt-shard of his father’s sword, and Sauron himself was overthrown.",B,Isildur's Fateful Strike,{2}{B}{B}
+NA,B,Lobelia Sackville-Baggins,{2}{B}
+"“The Nazgûl closed round at night, and I was besieged. Such light and flame cannot have been seen on Weathertop since the war-beacons of old.”
+—Gandalf",R,Display of Power,{1}{R}{R}
+NA,R,Fall of Cair Andros,{2}{R}
+NA,R,"Glóin, Dwarf Emissary",{2}{R}
+NA,R,Hew the Entwood,{3}{R}{R}
+"There was a rush of hoarse laughter, like the fall of sliding stones into a pit; amid the clamor a deep voice was raised in command.",R,Moria Marauder,{R}{R}
+"There were toys the Hobbit-children had never seen before, all beautiful, and some obviously magical.",G,Delighted Halfling,{G}
+"“A Elbereth Gilthoniel, silivren penna míriel o menel aglar elenath!”",G,Elven Chorus,{3}{G}
+NA,G,Radagast the Brown,{2}{G}{G}
+NA,G,The Ring Goes South,{3}{G}
+NA,M,"Arwen, Mortal Queen",{1}{G}{W}
+"“Speak, friend, and enter.”",M,Doors of Durin,{3}{R}{G}
+NA,M,King of the Oathbreakers,{2}{W}{B}
+"“Whatever is wrong in the Shire, Lotho will be at the bottom of it: you can be sure of that.”
+—Pippin",M,"Lotho, Corrupt Shirriff",{W}{B}
+"“He was dear to you, I see. And now he shall endure the slow torment of years.”",M,Sauron's Ransom,{1}{U}{B}
+NA,M,"Shagrat, Loot Bearer",{2}{B}{R}
+NA,M,"Sharkey, Tyrant of the Shire",{2}{U}{B}
+NA,M,"Shelob, Child of Ungoliant",{4}{B}{G}
+NA,C,"Andúril, Flame of the West",{3}
+NA,C,Glamdring,{2}
+NA,C,Horn of Gondor,{3}
+"“He that blows this horn shall set fear in the hearts of his enemies and joy in the hearts of his friends.”
+—Eowyn",C,Horn of the Mark,{2}
+NA,C,Mithril Coat,{3}
+NA,C,The One Ring,{4}
+NA,C,Palantír of Orthanc,{3}
+"“May it be a light to you in dark places, when all other lights go out.”",C,Phial of Galadriel,{3}
+NA,W,"Saradoc, Master of Buckland",{3}{W}
+"In the days of the Kings, most of the High Elves dwelt with Círdan or in the seaward lands of Lindon.",U,Elvish Mariner,{2}{U}
+NA,B,Ringwraiths,{4}{B}{B}
+NA,R,Assault on Osgiliath,{X}{R}{R}{R}
+NA,G,Elanor Gardner,{3}{G}
+Frodo’s heart flamed within him. He drew his sword and advanced.,W,"Frodo, Determined Hero",{1}{W}
+"He has passed through the fire and the abyss, and the enemy shall fear him.",W,"Gandalf, White Rider",{3}{W}
+NA,B,"Gollum, Scheming Guide",{1}{B}
+“No living man may hinder me!”,B,"Witch-king, Bringer of Ruin",{4}{B}{B}
+NA,R,Fires of Mount Doom,{2}{R}
+NA,G,"Galadriel, Gift-Giver",{3}{G}{G}
+"Aragorn the King Elessar wedded Arwen Undómiel, and the tale of their long waiting and labors came to fulfillment.",M,"Aragorn and Arwen, Wed",{4}{G}{W}
+"An evil of the Ancient World, both a shadow and a flame.",M,"The Balrog, Flame of Udûn",{3}{B}{R}
+There is an Eye in the Dark Tower that does not sleep.,M,"Sauron, the Lidless Eye",{3}{B}{R}
+NA,C,Bilbo's Ring,{3}
+NA,W,Forge Anew,{2}{W}
+“I showed the blade reforged to him. He is not so mighty yet that he is above fear.”,U,Press the Enemy,{2}{U}{U}
+“We have a new errand on this journey: to ambush the Men of Harad.”,U,Rangers of Ithilien,{2}{U}{U}
+NA,U,The Watcher in the Water,{3}{U}{U}
+"Isildur cut the Ring from Sauron’s hand with the hilt-shard of his father’s sword, and Sauron himself was overthrown.",B,Isildur's Fateful Strike,{2}{B}{B}
+NA,R,Fall of Cair Andros,{2}{R}
+NA,M,King of the Oathbreakers,{2}{W}{B}
+NA,M,"Shelob, Child of Ungoliant",{4}{B}{G}
+NA,C,Glamdring,{2}
+NA,B,Lobelia Sackville-Baggins,{2}{B}
+NA,C,Wizard's Rockets,{1}
+NA,U,"Gandalf, Friend of the Shire",{3}{U}
+NA,G,Delighted Halfling,{G}
+NA,M,"Bilbo, Retired Burglar",{1}{U}{R}
+NA,M,Frodo Baggins,{G}{W}
+NA,M,"The Balrog, Durin's Bane",{5}{B}{R}
+NA,M,Flame of Anor,{1}{U}{R}
+NA,W,"Boromir, Warden of the Tower",{2}{W}
+NA,B,Lash of the Balrog,{B}
+NA,C,"Sting, the Glinting Dagger",{2}
+NA,M,"Aragorn, Company Leader",{1}{G}{W}
+NA,B,Dunland Crebain,{2}{B}
+NA,M,Saruman of Many Colors,{3}{W}{U}{B}
+NA,U,Storm of Saruman,{4}{U}{U}
+NA,G,Pippin's Bravery,{G}
+NA,G,"Fangorn, Tree Shepherd",{4}{G}{G}{G}
+NA,B,Nasty End,{1}{B}
+NA,R,Foray of Orcs,{3}{R}
+NA,G,Last March of the Ents,{6}{G}{G}
+NA,G,"Quickbeam, Upstart Ent",{4}{G}{G}
+NA,C,Minas Tirith,
+NA,B,Mirkwood Bats,{3}{B}
+NA,B,Voracious Fell Beast,{4}{B}{B}
+NA,B,Witch-king of Angmar,{3}{B}{B}
+NA,B,Shadow of the Enemy,{3}{B}{B}{B}
+NA,C,Barad-dûr,
+NA,R,Oliphaunt,{5}{R}
+NA,R,Rising of the Day,{2}{R}
+NA,R,"Éomer, Marshal of Rohan",{2}{R}{R}
+NA,B,"Gothmog, Morgul Lieutenant",{3}{B}
+NA,M,"Éowyn, Fearless Knight",{2}{R}{W}
+NA,M,Prince Imrahil the Fair,{W}{U}
+NA,U,Knights of Dol Amroth,{3}{U}
+NA,B,Orcish Bowmasters,{1}{B}
+NA,M,"Aragorn, the Uniter",{R}{G}{W}{U}
+NA,G,"Legolas, Master Archer",{1}{G}{G}
+NA,M,"Gimli, Mournful Avenger",{1}{R}{G}
+NA,M,"Merry, Esquire of Rohan",{R}{W}
+NA,M,"Pippin, Guard of the Citadel",{W}{U}
+NA,R,Spiteful Banditry,{X}{R}{R}
+NA,W,Rosie Cotton of South Lane,{2}{W}
+NA,W,Shire Shirriff,{1}{W}
+NA,W,Gandalf the White,{3}{W}{W}
+NA,C,The Grey Havens,
+NA,U,Lost Isle Calling,{1}{U}
+NA,G,Many Partings,{G}
+NA,M,Galadriel of Lothlórien,{1}{G}{U}
+NA,M,"Elrond, Master of Healing",{2}{G}{U}
+NA,W,"Frodo, Sauron's Bane",{W}
+NA,W,Samwise the Stouthearted,{1}{W}
+NA,B,"Gollum, Patient Plotter",{1}{B}
+NA,C,The One Ring,{4}
+"“Not idly do the leaves of Lórien fall.”
+—Aragorn",C,Trailblazer's Boots,{2}
+NA,W,Gandalf the White,{3}{W}{W}
+NA,M,Saruman of Many Colors,{3}{W}{U}{B}
