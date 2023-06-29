@@ -1,30 +1,40 @@
 ---
-title: "MTG Tales of Middle Earth Set"
+title: "Flavor Text of Middle Earth: Finding flavor texts in a trilogy of books."
 author: "Ben Keel"
 date: "2023-06-26"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: hide
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
-```{r setup, include=FALSE, warning=FALSE}
+![](D:/Documents/Random/LOTR/Infographic_Final.jpg)
+
+In this document, I walk through how I took the web-scraped flavor text
+of *Magic: The Gathering*'s "Lord of the Rings: Tales of Middle Earth"
+card set and found their chapter location. I used the graph at the end
+to then place each tab manually in a 3D model.
+
+## Data imports:
+
+Used a combination of tidyverse and tm for this project, so here are
+those packages:
+
+```{r setup, warning=FALSE, message=FALSE}
 
 library(tidyverse)
 library(readr)
-library(sf)
 library(tidyverse)
 library(knitr)
-library(kableExtra)
-library(tigris)
-library(viridis)
 library(dplyr)
-library(tidycensus)
 library(ggplot2)
-library(lubridate)
-library(janitor)
 library(stringi)
 
 library(tm)
-library(RTextTools)
-library(SnowballC)
 
 options(scipen = 999)
 
@@ -35,29 +45,36 @@ g <- glimpse
 ## Data Needs
 
 Ultimate data needs columns:
-  -Card name
-  -Card color
-  -Quote Text (Verbatim)
-  -Quote Text (Clean)
-  -Book
-  -Chapter of Book
-  -Sentence before
-  -Sentence after
+
+-   Card name
+-   Card color
+-   Quote Text (Verbatim)
+-   Quote Text (Clean)
+-   Book
+-   Chapter of Book
+-   Sentence before
+-   Sentence after (stretch goal)
 
 Data scraped from Scryfall:
-  -Card name
-  -Card Cost
-  -Card Color
-  -Quote Text (verbatim)
 
-```{r scryfall data import}
+-   Card name
+-   Card cost
+-   Card color
+-   Quote Text (Verbatim)
+
+```{r scryfall data import, warning=FALSE, message=FALSE}
 
 ft <- read_csv("scryfall_extract.csv")
 
 g(ft)
 
 ```
-```{r scryfall data cleaning}
+
+Cleaning data to remove all odd quotes. Created a truncated quote column
+of the first 18 characters, the length of Boromir's "Farewell, Aragorn!"
+to check for more matches and avoid the pitfalls of paraphrasing.
+
+```{r scryfall data cleaning, warning=FALSE, message=FALSE}
 
 ft_clean <- ft%>%
   filter(!(is.na(Text)))%>%
@@ -73,7 +90,11 @@ ft_clean <- ft%>%
 ```
 
 
-```{r chapter imports fellowship}
+#### LOTR Book Import
+
+Imported the three files obtained from @jblazzy's repo.
+
+```{r chapter imports fellowship, warning=FALSE, message=FALSE}
 
 import_txt_files <- function(folder_path, abbr) {
   file_list <- list.files(folder_path, pattern="\\.txt$", full.names=TRUE)
@@ -96,7 +117,12 @@ return <- import_txt_files("./return-chapters", "rk")
 
 ```
 
-```{r}
+#### Bad attempts
+
+Attempted to use a match(), but this didn't work. I opted to do a loop
+and lapply() method instead, in the next block.
+
+```{r bad code}
 
 #doesn't work
 ft_clean$book <- ifelse(match(ft_clean$book, fellowship), "fs", 
@@ -105,9 +131,11 @@ ft_clean$book <- ifelse(match(ft_clean$book, fellowship), "fs",
 
 ```
 
-Defining a function that loops through each text item in scryfall extract. It works for half of the items. 
+Defined a function that loops through each flavor text observation and checked using grepl(), which works for half of the items. This is good progress, but it means my
+initial cleaning was not enough, and I need to do something more to
+clean the text.
 
-```{r test check first chapter, warning=FALSE}
+```{r test check first chapter, warning=FALSE, message=FALSE, cache=TRUE, results='hide'}
 
 find_txt_match <- function(textQuote) {
   #loop through the two towers text and find the location of any match
@@ -138,27 +166,39 @@ find_txt_match <- function(textQuote) {
 
 ft_clean$chapter <- lapply(ft_clean$text_abbr, FUN = find_txt_match)
 
-sum(ft_clean$chapter == "")
+#ft_clean <- ft_clean%>%
+#  mutate(chapter = find_txt_match(text_abbr))
+
+```
+
+The Fellowship had more than other books, and I wondered if it be due to the search process. I needed to at least reverse it to confirm that I had good matches.
+
+```{r initial results}
 
 ft_clean <-  ft_clean %>%
   mutate(book = substr(chapter, 1, 2))
 
 table(ft_clean$book)
 
-#ft_clean <- ft_clean%>%
-#  mutate(chapter = find_txt_match(text_abbr))
-
 ```
 
+## Using the tm packages and corpi for text cleaning
 
-```{r book reconfigure}
+To gain access to powerful functions that would clean up my text, I
+converted each of the flavor text table and the three books into an
+individual corpus. I could then use the tm package to take out specific
+characters, make all the text lowercase, and remove whole batches of
+punctuation. The stripWhitespace() function saved me a lot of time by
+taking out the multiple spaces left after removing quotes and extra line
+breaks.
+
+```{r book reconfigure, warning=FALSE, message=FALSE}
 
 toSpace <- content_transformer(function(x, pattern) gsub(pattern, " ", x))
 
 ft_corpus <- Corpus(VectorSource(ft_clean$text_clean))
 ft_corpus <- tm_map(ft_corpus, tolower)
 ft_corpus <- tm_map(ft_corpus, removePunctuation)
-ft_corpus <- tm_map(ft_corpus, toSpace, "\n")
 ft_corpus <- tm_map(ft_corpus, toSpace, "\n")
 ft_corpus <- tm_map(ft_corpus, stripWhitespace)
 
@@ -184,9 +224,11 @@ rkCorpus <- tm_map(rkCorpus, removePunctuation)
 rkCorpus <- tm_map(rkCorpus, stripWhitespace)
 
 ```
-The code below only leaves 15 cards without a chapter.
 
-```{r check through corpi, warning=FALSE}
+Finding the 18 character truncation of each flavor text in these corpi leaves 15 cards without a
+chapter.
+
+```{r check through corpi, warning=FALSE, message=FALSE, results='hide'}
 #Checking if the corpi can catch a match
 grepl(ft_corpus[["3"]][["content"]], ttCorpus[["1"]][["content"]])
 
@@ -229,8 +271,6 @@ ft_clean_corp <- ft_clean_corp%>%
 ft_clean_corp$chapter <- lapply(ft_clean_corp$text_corpus_abbr, FUN = find_corpi_match)
 
 sum(ft_clean_corp$chapter != "")
- 
-
 
 ft_missing <- ft_clean_corp%>%
   filter(ft_clean_corp$chapter == "")
@@ -244,39 +284,23 @@ ft_clean_corp <- ft_clean_corp%>%
 ft_clean_corp <-  ft_clean_corp %>%
   mutate(book = substr(chapter, 1, 2))
 
-table(ft_clean_corp$book)
-
 #ft_clean <- ft_clean%>%
 #  mutate(chapter = find_txt_match(text_abbr))
 
 ```
 
-  -Card name
-  -Card color
-  -Quote Text (Verbatim)
-  -Quote Text (Clean)
-  -Book
-  -Chapter of Book
-  
-Stretch..?
-  -Sentence before
-  -Sentence after
+Table of results below:
 
-```{r cleaning the data table}
+```{r table for corpi one, warning=FALSE, message=FALSE}
 
-tome <- ft_clean_corp%>%
-  dplyr::select(card_name, cardColorList, Text, text_corpus, book, chapter)
-
-tome$chapter <- as.character(tome$chapter)
-
-write_csv(tome, "./tome.csv")
-
+table(ft_clean_corp$book)
 
 ```
 
-Reversing, just to be sure that items were categorized correctly.
+Reversing FS\>TT\>RK to RK\>TT\>FS, just to be sure that items were
+categorized correctly at the highest level.
 
-```{r check through corpi in reverse, warning=FALSE}
+```{r check through corpi in reverse, warning=FALSE, message=FALSE, results='hide'}
 
 #Defining function for whole loop
 find_corpi_match_rev <- function(textQuote) {
@@ -331,17 +355,127 @@ ft_clean_corpR <- ft_clean_corpR%>%
 ft_clean_corpR <-  ft_clean_corpR %>%
   mutate(book = substr(chapter, 1, 2))
 
+```
+
+Table of reverse results:
+
+```{r reverse results, message=FALSE, warning=FALSE}
 table(ft_clean_corpR$book)
+```
 
 
-ft_check <- ft_clean_corp %>%
-  left_join(dplyr::select(ft_clean_corpR, card_name, chapter), by="card_name")%>%
-  dplyr::select(card_name, chapter.x, chapter.y, text_corpus)%>%
-  rename(chapterFirst = chapter.x,
-         chapterReverse = chapter.y)%>%
+With this batch of content, I had the following info for all but 15
+cards and another 15 that had different classifications based on search
+order. I figured that's an easier amount to just confirm manually, which
+is how I got the rest of the chapters.
 
-ft_check$chapterFirst <- enc2utf8(as.character(ft_check$chapterFirst))
-ft_check$chapterReverse <- enc2utf8(as.character(ft_check$chapterReverse))
+Current table content: 
 
+* Card name
+* Card color
+* Quote
+* Flavor Text (Verbatim)
+* Flavor Text (Clean)
+* Book
+* Chapter of Book
+
+If I were making a cool web interactive, I figured the below content
+would be cool to feature as well. However, this was not possible with my
+current set up. Technically, I can barely find the right string of
+words, so ID'ing full sentences is tougher. Friends of mine recommended
+using tidyText and fuzzyMatch on tokenized sentences, but tidyText works
+best with ASCII encoding, and Tolkein uses many characters and accents
+that aren't ASCII friendly. As I result, more conversions and more work,
+less visualization. I decided to leave these items on the table until I
+return to the project.
+
+Stretch goal table content: 
+
+* Sentence before
+* Sentence after
+
+```{r cleaning the data table, warning=FALSE, message=FALSE}
+
+tome <- ft_clean_corp%>%
+  dplyr::select(card_name, cardColorList, Text, text_corpus, book, chapter)
+
+tome$chapter <- as.character(tome$chapter)
+
+#write_csv(tome, "./tome.csv")
+
+#checked and manually re-wrote relevant ones. Importing the revisions here.
+tome_revised <- read.csv("./tome_revised.csv")%>%
+  mutate(book = substr(chapter, 1, 2))
+
+```
+
+## Totals per Chapter
+
+I had to list each chapter as an ordered factor to correctly order them
+in the chart. I could then create bar charts like the following:
+
+```{r factor lists and graph output, warning=FALSE, message=FALSE, results='hide'}
+
+factor_levels <- c()
+
+# Add fs levels
+for (i in 1:length(fsCorpus)) {
+  factor_levels <- c(factor_levels, paste0("fs", i))
+}
+
+# Add tt levels
+for (i in 1:length(ttCorpus)) {
+  factor_levels <- c(factor_levels, paste0("tt", i))
+}
+
+# Add rk levels
+for (i in 1:length(rkCorpus)) {
+  factor_levels <- c(factor_levels, paste0("rk", i))
+}
+
+print(factor_levels)
+
+factor_levels <- factor_levels[2:67]
+
+tome_revised$chapter <- factor(tome_revised$chapter, levels = factor_levels)
+
+table(tome_revised$chapter)
+
+tome_summary <- tome_revised %>%
+  group_by(chapter, cardColorList, .drop=FALSE)%>%
+  summarize(count=n())
+
+```
+
+```{r Graph 1, message=FALSE, warning=FALSE}
+
+tome_summary%>%
+  ggplot(aes(x=chapter, y=count, fill=cardColorList))+
+    geom_bar(stat="identity")+
+    scale_fill_manual(values = c("gray", "black", "gray", "green", "gold", "red", "blue", "white"))+
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+    geom_vline(xintercept = "tt1", color = "black", size = 1, linetype = "dashed")+
+    geom_vline(xintercept = "rk1", color = "black", size = 1, linetype = "dashed")+
+  labs(title="Count of MtG flavor text in each chapter of LOTR",
+       subtitle="Cards from 'Lord of the Rings: Tales of Middle Earth' sorted by chapter")
+
+```
+
+## Totals Per Color Per Chapter
+
+This is the output I imported into my 3D model for tab placement.
+
+```{r Graph output totals per color per chapter, warning=FALSE, message=FALSE}
+
+tome_summary%>%
+  ggplot(aes(x=chapter, y=count, fill=cardColorList))+
+    geom_bar(stat="identity", position="dodge")+
+    scale_fill_manual(values = c("gray", "black", "gray", "green", "gold", "red", "blue", "white"))+
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+    geom_vline(xintercept = "tt1", color = "black", size = 1, linetype = "dashed")+
+    geom_vline(xintercept = "rk1", color = "black", size = 1, linetype = "dashed")+
+    facet_wrap(~cardColorList)+
+    labs(title="Count of MtG flavor text in each chapter of LOTR",
+       subtitle="Cards from 'Lord of the Rings: Tales of Middle Earth' sorted by chapter and color")
 
 ```
