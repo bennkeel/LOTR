@@ -15,7 +15,7 @@ For this set, nearly all if not all the flavor text comes from the Lord of the R
 ![](https://github.com/bennkeel/LOTR/blob/master/images/Graph_1.jpg)
 ![](https://github.com/bennkeel/LOTR/blob/master/images/facet_wrap%20color%20graph.jpg)
 6.  Built the layout scene of the 3D model using [this book asset](https://sketchfab.com/3d-models/book-28e028e981604aacb25766852aa279ed).
-![](https://github.com/bennkeel/LOTR/blob/master/images/Composition_1.jpg)
+![](https://github.com/bennkeel/LOTR/blob/master/images/Composition_1.png)
 
 7.  Imported the graph and manually placed the tabs into the books.
 ![](https://github.com/bennkeel/LOTR/blob/master/images/modelRef_3.jpg)
