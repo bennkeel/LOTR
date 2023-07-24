@@ -1,0 +1,568 @@
+Text,card_name,cost,cardColorList
+NA,"Éowyn, Shieldmaiden",{2}{U}{R}{W},M
+NA,"Frodo, Adventurous Hobbit",{W}{B},M
+NA,"Galadriel, Elven-Queen",{2}{G}{U},M
+NA,"Sauron, Lord of the Rings",{5}{U}{B}{R},M
+"“In this place will I abide, and my heirs, unto the ending of the world.”","Aragorn, King of Gondor",{1}{U}{R}{W},M
+NA,"Gandalf, Westward Voyager",{3}{G}{U},M
+NA,"Sam, Loyal Attendant",{1}{G}{W},M
+Over all his works a dark smoke hung and wrapped itself about the sides of Orthanc.,"Saruman, the White Hand",{1}{U}{B}{R},M
+"“Beregond, if you can, do something to stop any dreadful thing from happening.”
+—Pippin",Beregond of the Guard,{3}{W},W
+“The Realm of Sauron is ended forever!”,Champions of Minas Tirith,{5}{W},W
+NA,Field-Tested Frying Pan,{2}{W},W
+"On the growing of vegetables, especially potatoes, Master Hamfast Gamgee was recognized as the leading authority by all in the neighborhood.",The Gaffer,{2}{W},W
+"“Ónen i-Estel Edain, ú-chebin estel anim.”","Gilraen, Dúnedain Protector",{2}{W},W
+"“I hope they haven’t forgotten how to fight.”
+—Gimli",Grey Host Reinforcements,{3}{W},W
+NA,"Gwaihir, Greatest of the Eagles",{4}{W},W
+NA,Lossarnach Captain,{3}{W},W
+NA,Of Herbs and Stewed Rabbit,{2}{W},W
+"“If indeed you look only, as you say, for records of ancient days and the beginnings of the City, read on!”",Archivist of Gondor,{2}{U},U
+NA,Corsairs of Umbar,{3}{U},U
+"“You may triumph on the field, for a day. But against the Power that now arises there is no victory.”","Denethor, Stone Seer",{1}{U},U
+NA,Fealty to the Realm,{4}{U},U
+NA,Monstrosity of the Lake,{4}{U},U
+"She seemed tall beyond measurement, and beautiful beyond enduring, terrible and worshipful.",Raise the Palisade,{4}{U},U
+"“This is worse than Mordor! Much worse, in a way. It comes home to you, as they say, because it is a home, and you remember it before it was all ruined.”
+—Sam",Subjugate the Hobbits,{5}{U}{U},U
+NA,Trap the Trespassers,{2}{U},U
+"He hated the Ring and loved it, as he hated and loved himself.","Gollum, Obsessed Stalker",{1}{B},B
+NA,"Lobelia, Defender of Bag End",{2}{B},B
+NA,Rapacious Guest,{2}{B},B
+NA,"Shelob, Dread Weaver",{3}{B},B
+"“We must hasten. The beacons of Gondor are alight. War is kindled.”
+—Gandalf",Call for Aid,{4}{R},R
+NA,Cavern-Hoard Dragon,{7}{R}{R},R
+“No Dwarf could be unmoved by such loveliness.”,Gimli of the Glittering Caves,{2}{R},R
+NA,Orcish Siegemaster,{2}{R},R
+"The Mûmakil of Harad were great beasts, like moving houses, capable of dragging huge towers and engines to war.",Rampaging War Mammoth,{5}{R}{R},R
+"From afar, Arwen watched over Aragorn, and in hope, she made for him a great and kingly standard.","Arwen, Weaver of Hope",{1}{G}{G},G
+"“Boom, boom, rumboom, boorar, boom boom, dahrar boom boom, dahrar boom…”",Assemble the Entmoot,{3}{G},G
+"His name, of course, was Proudfoot.",Feasting Hobbit,{1}{G},G
+"“None of the Orcs will ever return out of Lórien.”
+—Haldir",Galadhrim Ambush,{3}{G},G
+“Now you must be brought before the Lord and the Lady.”,"Haldir, Lórien Lieutenant",{X}{G},G
+NA,Legolas Greenleaf,{2}{G},G
+"“Whereas the light perceives the very heart of the darkness, its own secret has not been discovered.”
+—Haldir",Mirkwood Elk,{5}{G},G
+NA,Motivated Pony,{4}{G},G
+The habit of building farmhouses and barns began among the inhabitants of the Marish down by the Brandywine.,Prize Pig,{1}{G},G
+NA,Travel Through Caradhras,{5}{G},G
+A shrill yell went up—they had been seen. There was a ring and clash of steel.,Windswift Slice,{2}{G},G
+NA,The Balrog of Moria,{4}{B}{B}{R},M
+NA,Banquet Guests,{X}{G}{W},M
+NA,"Bilbo, Birthday Celebrant",{W}{B}{G},M
+"“Long have I wandered by roads forgotten, seeking the house of Elrond.”","Boromir, Gondor's Hope",{2}{W}{U},M
+NA,Círdan the Shipwright,{3}{G}{U},M
+NA,Elrond of the White Council,{3}{G}{U},M
+NA,"Éomer, King of Rohan",{3}{R}{W},M
+“There are but two courses: to hide the Ring forever; or to unmake it.”,Erestor of the Council,{1}{G}{U},M
+“The last Steward of Gondor begs leave to surrender his office.”,"Faramir, Steward of Gondor",{1}{W}{U},M
+“So it’s begun at last! I’ve been itching for trouble all this year.”,Farmer Cotton,{X}{G}{W},M
+"“A sword-day, a red day, ere the sun rises! Ride now, ride now! Ride to Gondor!”",Forth Eorlingas!,{X}{R}{W},M
+NA,"Gríma, Saruman's Footman",{2}{U}{B},M
+NA,In the Darkness Bind Them,{2}{U}{B}{R},M
+NA,Lidless Gaze,{2}{B}{R},M
+NA,Lord of the Nazgûl,{3}{U}{B},M
+NA,"Merry, Warden of Isengard",{1}{G}{W},M
+"Under the boughs of Mirkwood, there was deadly strife of Elves and evil beings.",Mirkwood Trapper,{1}{G}{U},M
+NA,Moria Scavenger,{1}{B}{R},M
+NA,Oath of Eorl,{3}{R}{W},M
+NA,"Pippin, Warden of Isengard",{B}{G},M
+NA,"Radagast, Wizard of Wilds",{2}{G}{U},M
+NA,Riders of Rohan,{3}{R}{W},M
+NA,Sail into the West,{2}{G}{U},M
+NA,Song of Eärendil,{3}{G}{U},M
+NA,Summons of Saruman,{X}{U}{R},M
+"“Is it not said that no foe has ever taken the Hornburg, if men defended it?”
+—Aragorn",Taunt from the Rampart,{3}{R}{W},M
+"“The Dwarves tell no tale; but even as mithril was the foundation of their wealth, so also it was their destruction.”
+—Gandalf","Too Greedily, Too Deep",{5}{B}{R},M
+"“I go my own way, but your way may go along with mine for a while.”","Treebeard, Gracious Host",{2}{G}{W},M
+NA,Wake the Dragon,{4}{B}{R},M
+NA,Crown of Gondor,{3},C
+NA,Hithlain Rope,{2},C
+NA,Lothlórien Blade,{3},C
+"“Rivendell is a perfect house, whether you like food or sleep or storytelling or singing, or a pleasant mixture of them all.”
+—Bilbo",Model of Unity,{3},C
+"While the power of Sauron grew, light and living things forsook his borders.",Relic of Sauron,{4},C
+NA,The Black Gate,,C
+NA,"Éowyn, Shieldmaiden",{2}{U}{R}{W},M
+NA,"Frodo, Adventurous Hobbit",{W}{B},M
+NA,"Galadriel, Elven-Queen",{2}{G}{U},M
+NA,"Sauron, Lord of the Rings",{5}{U}{B}{R},M
+NA,The Great Henge,{7}{G}{G},G
+"Aragorn took the green stone and held it up, and there came a green fire from his hand.",Cloudstone Curio,{3},C
+The way out lay across a slender bridge of stone. It was an ancient defense of the Dwarves that could only be traversed in single file.,Ensnaring Bridge,{3},C
+NA,The Ozolith,{1},C
+"All that has been wrought by those who wield the Three will turn to their undoing, and their minds and hearts will become revealed to Sauron, if he regains the One.",Rings of Brighthearth,{3},C
+"“Few now have the skill in healing to match such evil weapons.”
+—Strider",Shadowspear,{1},C
+NA,Sword of Hearth and Home,{3},C
+"“My heart rejoices; for you, Estel, shall be among the great whose valor will destroy the Shadow.”
+—Arwen",Sword of the Animist,{2},C
+"“Narsil was broken and its light extinguished, and it has not yet been forged again.”
+—Elrond",Thorn of Amethyst,{2},C
+"On the slab runes were deeply graven:
+BALIN
+SON OF FUNDIN
+LORD OF MORIA",Ancient Tomb,,C
+There loomed against the westward stars a dark black shape: a great barrow stood there.,Bojuka Bog,,C
+"Grey ruins falling into darkness, even with sunlight still shining in the sky.","Boseiju, Who Shelters All",,C
+"“Evil things came forth, and they took Minas Ithil and abode in it, and they made it into a place of dread; it is now called Minas Morgul, the Tower of Sorcery.”
+—Elrond",Cabal Coffers,,C
+The hall was long and wide and filled with shadows. Mighty pillars upheld its lofty roof.,Castle Ardenvale,,C
+NA,Cavern of Souls,,C
+"Amon Sûl they called it. It was burned and broken, and nothing remains of it now but a tumbled ring, like a rough crown on the old hill’s head.",Deserted Temple,,C
+NA,Gemstone Caverns,,C
+"“Let others a journey new begin,
+But I at last with weary feet
+Will turn towards the lighted inn,
+My evening-rest and sleep to meet.”
+—Bilbo’s song",Homeward Path,,C
+"It was popularly believed, as local legend, that the Hill at Bag End was full of tunnels stuffed with treasure.",Horizon Canopy,,C
+"“I stand in the place of the Steward of Gondor, and it is mine to think first of its people. Gondor must be protected.”
+—Prince Imrahil",Karakas,,C
+"The chief city of the Kings of Men was Osgiliath, Citadel of the Stars. Now it is deserted, and in its ruins shadows walk.",Kor Haven,,C
+"Beyond, in the great fief of Belfalas, dwelt Prince Imrahil in his castle of Dol Amroth by the sea.","Minamo, School at Water's Edge",,C
+"“We shall meet bitter cold, if not worse, before we come down on the other side. It will not help us to keep so secret that we are frozen to death.”
+—Boromir",Mouth of Ronom,,C
+The Brandywine flowed slow and broad before them. A large flat ferry-boat was moored beside the landing.,"Oboro, Palace in the Clouds",,C
+"“The Road goes ever on and on,
+Down from the door where it began.
+Now far ahead the Road has gone,
+And I must follow, if I can.”
+—Frodo’s song",Pillar of the Paruns,,C
+"“This is the Window of the Sunset, fairest of all the falls of Ithilien, land of many fountains.”
+—Faramir",Reflecting Pool,,C
+"The keep was called the Hornburg, for a trumpet sounded upon the tower echoed in the Deep behind, as if armies long-forgotten were issuing to war from caves beneath the hills.","Shinka, the Bloodsoaked Keep",,C
+"“All dead, all rotten. Elves and Men and Orcs. There was a great battle here long ago, yes.”
+—Gollum","Urborg, Tomb of Yawgmoth",,C
+"“But I am going to Mordor,” said Frodo.
+“I know that well enough,” said Sam. “Of course you are. And I’m coming with you.”",Wasteland,,C
+"Pippin thought he saw groves of trees moving. Could it be that the trees of Fangorn were awake, and the forest was rising, marching over the hills to war?","Yavimaya, Cradle of Growth",,C
+NA,The Great Henge,{7}{G}{G},G
+"Aragorn took the green stone and held it up, and there came a green fire from his hand.",Cloudstone Curio,{3},C
+The way out lay across a slender bridge of stone. It was an ancient defense of the Dwarves that could only be traversed in single file.,Ensnaring Bridge,{3},C
+NA,The Ozolith,{1},C
+"All that has been wrought by those who wield the Three will turn to their undoing, and their minds and hearts will become revealed to Sauron, if he regains the One.",Rings of Brighthearth,{3},C
+"“Few now have the skill in healing to match such evil weapons.”
+—Strider",Shadowspear,{1},C
+NA,Sword of Hearth and Home,{3},C
+"“My heart rejoices; for you, Estel, shall be among the great whose valor will destroy the Shadow.”
+—Arwen",Sword of the Animist,{2},C
+"“Narsil was broken and its light extinguished, and it has not yet been forged again.”
+—Elrond",Thorn of Amethyst,{2},C
+"On the slab runes were deeply graven:
+BALIN
+SON OF FUNDIN
+LORD OF MORIA",Ancient Tomb,,C
+There loomed against the westward stars a dark black shape: a great barrow stood there.,Bojuka Bog,,C
+"Grey ruins falling into darkness, even with sunlight still shining in the sky","Boseiju, Who Shelters All",,C
+"“Evil things came forth, and they took Minas Ithil and abode in it, and they made it into a place of dread; it is now called Minas Morgul, the Tower of Sorcery.”
+—Elrond",Cabal Coffers,,C
+The hall was long and wide and filled with shadows. Mighty pillars upheld its lofty roof.,Castle Ardenvale,,C
+NA,Cavern of Souls,,C
+"Amon Sûl they called it. It was burned and broken, and nothing remains of it now but a tumbled ring, like a rough crown on the old hill’s head.",Deserted Temple,,C
+NA,Gemstone Caverns,,C
+"“Let others a journey new begin,
+But I at last with weary feet
+Will turn towards the lighted inn,
+My evening-rest and sleep to meet.”
+—Bilbo’s song",Homeward Path,,C
+"It was popularly believed, as local legend, that the Hill at Bag End was full of tunnels stuffed with treasure.",Horizon Canopy,,C
+"“I stand in the place of the Steward of Gondor, and it is mine to think first of its people. Gondor must be protected.”
+—Prince Imrahil",Karakas,,C
+"The chief city of the Kings of Men was Osgiliath, Citadel of the Stars. Now it is deserted, and in its ruins shadows walk.",Kor Haven,,C
+"Beyond, in the great fief of Belfalas, dwelt Prince Imrahil in his castle of Dol Amroth by the sea.","Minamo, School at Water's Edge",,C
+"“We shall meet bitter cold, if not worse, before we come down on the other side. It will not help us to keep so secret that we are frozen to death.”
+—Boromir",Mouth of Ronom,,C
+The Brandywine flowed slow and broad before them. A large flat ferry-boat was moored beside the landing.,"Oboro, Palace in the Clouds",,C
+"“The Road goes ever on and on,
+Down from the door where it began.
+Now far ahead the Road has gone,
+And I must follow, if I can.”
+—Frodo’s song",Pillar of the Paruns,,C
+"“This is the Window of the Sunset, fairest of all the falls of Ithilien, land of many fountains.”
+—Faramir",Reflecting Pool,,C
+"The keep was called the Hornburg, for a trumpet sounded upon the tower echoed in the Deep behind, as if armies long-forgotten were issuing to war from caves beneath the hills.","Shinka, the Bloodsoaked Keep",,C
+"“All dead, all rotten. Elves and Men and Orcs. There was a great battle here long ago, yes.”
+—Gollum","Urborg, Tomb of Yawgmoth",,C
+"“But I am going to Mordor,” said Frodo.
+“I know that well enough,” said Sam. “Of course you are. And I’m coming with you.”",Wasteland,,C
+"Pippin thought he saw groves of trees moving. Could it be that the trees of Fangorn were awake, and the forest was rising, marching over the hills to war?","Yavimaya, Cradle of Growth",,C
+NA,Sol Ring,{1},C
+NA,Sol Ring,{1},C
+NA,Sol Ring,{1},C
+"Before all went Aragorn with the Flame of the West—Andúril, like a new fire kindled, Narsil reforged as deadly as of old. And upon his brow was the Star of Elendil.",Banishing Light,{2}{W},W
+"“Who can now hold the fords when the King of the Nine Riders comes?”
+—Frodo",Bastion Protector,{2}{W},W
+"“Go! If you trouble us again, you will regret it.”
+—Merry",Call for Unity,{3}{W}{W},W
+"“Hope he rekindled, and in hope ended; over death, over dread, over doom lifted out of loss, out of life, unto long glory.”
+—Eulogy to Théoden",Dawn of Hope,{1}{W},W
+"“The houses of the dead are no places for the living.”
+—Gandalf",Dearly Departed,{4}{W}{W},W
+NA,Dusk // Dawn,{2}{W}{W},W
+"“There we sat high up above the floods and watched the drowning of Isengard.”
+—Pippin",Fell the Mighty,{3}{W}{W},W
+"“What roads would any dare to tread if the Dúnedain were all gone into the grave?”
+—Aragorn",Fiend Hunter,{4}{W},W
+“The world is full enough of hurts and mischances without wars to multiply them.”,Frontline Medic,{1}{W}{W},W
+"The one small garden of a free gardener was all Sam’s need and due, not a garden swollen to a realm; his own hands to use, not the hands of others to command.",Fumigate,{2}{W},W
+NA,Increasing Devotion,{3}{W}{W},W
+NA,Marshal's Anthem,{3}{W}{W},W
+"In a twinkling the table was laid. There was hot soup, cold meats, a blackberry tart, new loaves, slabs of butter, and half a ripe cheese: good plain food, as good as the Shire could show.",Mentor of the Meek,{2}{W}{W},W
+"“Is it not a law in the City that those who wear the black and silver must stay in the Citadel?”
+—Gandalf",Palace Jailer,{2}{W},W
+"“Go now, Wormtongue, whither you will. But then, if we ever meet again, I shall not be merciful.”
+—Théoden",Path to Exile,{2}{W}{W},W
+NA,Selfless Squire,{W},W
+NA,Sunset Revelry,{3}{W},W
+"Anything that Hobbits had no immediate use for, but were unwilling to throw away, they called a mathom. Their dwellings were apt to become rather crowded with mathoms.",Swords to Plowshares,{1}{W},W
+NA,Unbreakable Formation,{W},W
+NA,Verge Rangers,{2}{W},W
+"“The enemy is at hand! We loosed every arrow that we had, and filled the Dike with Orcs. But it will not halt them long.”",Village Bell-Ringer,{2}{W},W
+NA,Visions of Glory,{2}{W},W
+"The Forest of Drúadan was granted to Ghân-buri-Ghân and his folk, to be their own forever.",Weathered Wayfarer,{4}{W},W
+"“Last night I told you of Sauron, the Dark Lord. The rumors are true: he has arisen again.”
+—Gandalf",Arcane Denial,{W},W
+"Three Rings for the Elven-kings under the sky,
+Seven for the Dwarf-lords in their halls of stone,
+Nine for Mortal Men doomed to die,
+One for the Dark Lord on his dark throne
+In the Land of Mordor where the Shadows lie.",Boon of the Wish-Giver,{1}{U},U
+"“And in the night from Otherworld beyond the Sea there strong and free a storm arose …”
+—Song of Eärendil",Colossal Whale,{4}{U}{U},U
+"“A new Power is rising. Against it, the old allies and policies will not avail us at all. There is one choice before us.”
+—Saruman",Consider,{5}{U}{U},U
+"“There are older and fouler things than Orcs in the deep places of the world.”
+—Gandalf",Deep Analysis,{U},U
+The Riders were overwhelmed: drowned in the roaring of the river as it carried them away.,Devastation Tide,{3}{U},U
+"“What aid have you ever brought, Stormcrow? And what aid do you bring now? It was aid from us that you sought the last time you were here.”
+—Wormtongue",Fact or Fiction,{3}{U}{U},U
+"Do not meddle in the affairs of Wizards, for they are subtle and quick to anger.",Forbidden Alchemy,{3}{U},U
+"“The Great Ring shall go now to be an heirloom of the North Kingdom; but records of it shall be left in Gondor, lest a time come when the memory of these great matters shall grow dim.”
+—Scroll of Isildur",Learn from the Past,{2}{U},U
+NA,Mystic Confluence,{3}{U},U
+"They looked east to the Shadow and west to the Twilight, and they plighted their troth and were glad.",Opt,{3}{U}{U},U
+"“Smoke rises once more from Mount Doom. The power of the Black Land grows and we are hard beset.”
+—Boromir",Plea for Power,{U},U
+"“That is the business of Wizards: Wizards are always troubled about the future.”
+—Treebeard",Preordain,{3}{U},U
+"Once or twice the travelers heard the rush and whine of swan-wings, and looking up they saw a great phalanx streaming along the sky.",Swan Song,{U},U
+"Suddenly a song began: a cold murmur, rising and falling, grim, cold, heartless and miserable. The night was railing against the morning of which it was bereaved, and the cold was cursing the warmth for which it hungered.",Crypt Incursion,{U},U
+NA,Decree of Pain,{2}{B},B
+"“We have found many of our folk lying slain as they fled thither.”
+—Rider of Rohan",Feed the Swarm,{6}{B}{B},B
+"“Precious, precious, precious!”",Go for the Throat,{1}{B},B
+"It seemed to the tenders of the sick that on the Halfling and on the Lady of Rohan this malady lay heavily. Soon they began to fall down into the darkness, and as the sun turned west, a grey shadow crept over their faces.",Languish,{1}{B},B
+They seemed like black holes in the deep shade behind them. Frodo thought that he heard a faint hiss as of venomous breath and felt a thin piercing chill.,Living Death,{2}{B}{B},B
+“Curse the Isengarders! Uglúk u bagronk sha pushdug Saruman-glob búbhosh skai!”,Merciless Executioner,{3}{B}{B},B
+"Frodo was hardly less terrified than his companions; he was quaking as if he was bitter cold, but his terror was swallowed up in a sudden temptation to put on the Ring.",Night's Whisper,{2}{B},B
+"“But the Ringwraiths themselves cannot be so easily destroyed.”
+—Gandalf",Reanimate,{1}{B},B
+"“Regiments of black crows are flying all over. I do not know what they are about, but I think they are spying out the land.”
+—Gandalf",Revenge of Ravens,{B},B
+"“They tried to pierce your heart with a Morgul-knife which remains in the wound. If they had succeeded, you would have become like they are, only weaker and under their command.”
+—Gandalf",Sanguine Bond,{3}{B},B
+"Even Sam’s vision in the Mirror had not prepared him. The Old Grange on the west side had been knocked down, and its place taken by rows of tarred sheds. All the chestnuts were gone. The banks and hedgerows were broken.",Toxic Deluge,{3}{B}{B},B
+There are many evil and unfriendly things in the world that have little love for those who go on two legs.,Anger,{2}{B},B
+"“And there are some things, of course, whose side I am altogether not on: these burárum—these Orcs, and their masters.”
+—Treebeard",Blasphemous Act,{3}{R},R
+"“This is the hour when we draw swords together!”
+—Aragorn",Combat Celebrant,{8}{R},R
+“How long is it since Saruman bought you? What was the promised price?”,Court of Ire,{2}{R},R
+"From far away, now dim, now growing, now mounting to the clouds, there came a drumming rumble, a roar, a long echoing roll of ruinous noise.",Earthquake,{3}{R}{R},R
+"“Here, lord, is Herugrim, your ancient blade. It was found in Wormtongue’s room. Many other things are there which men have missed.”
+—Háma, to Théoden",Faithless Looting,{X}{R},R
+NA,Flamerush Rider,{R},R
+What could not a warrior do in this hour?,Frontier Warmonger,{4}{R},R
+"“But the Orcs have brought a devilry from Orthanc.”
+—Aragorn",Goblin Cratermaker,{3}{R},R
+NA,Goblin Dark-Dwellers,{1}{R},R
+"“I have looked on Moria, and it is very great, but it has become dark and dreadful.”
+—Gimli",Guttersnipe,{3}{R}{R},R
+"“A time may come soon when there will be need of valor without renown. Yet the deeds will not be less valiant because they are unpraised.”
+—Aragorn",Harsh Mentor,{2}{R},R
+"The few survivors were rounded up in the woods, and those who surrendered were shown to the borders.",Humble Defector,{1}{R},R
+"“I daresay there’s more truth in some of them stories than you reckon.”
+—Sam",Inferno Titan,{1}{R},R
+"Of the seven Rings of Power the Dwarf-kings possessed, three Sauron has recovered, and the others the dragons have consumed.",Knollspine Dragon,{4}{R}{R},R
+NA,Scourge of the Throne,{5}{R}{R},R
+"Out from the beleaguered hills, knights of Gondor, Riders of Rohan, and Dúnedain of the North drove against their wavering foes, piercing the press with the thrust of bitter spears.",Shared Animosity,{4}{R}{R},R
+NA,Shiny Impetus,{2}{R},R
+They began to throw missiles that passed right above the battlement and fell thudding within the first circle of the City.,Siege-Gang Commander,{2}{R},R
+"A hundred ladders were raised against the battlements. Over the wall and under the wall the last assault came, sweeping like a dark wave upon a hill of sand.",Thrill of Possibility,{3}{R}{R},R
+"To his dismay, he could not both fight and keep hold of his treasure.",Treasure Nabber,{1}{R},R
+"Buckler and corslet, axe and sword,
+And shining spears were laid in hoard.",Zealous Conscripts,{2}{R},R
+NA,Arbor Elf,{4}{R},R
+"“Radagast has much lore of herbs and beasts, and birds are especially his friends.”
+—Gandalf",Asceticism,{G},G
+"“Radagast is, of course, a worthy Wizard, a master of shapes and changes of hue.”
+—Gandalf",Beast Within,{3}{G}{G},G
+"The noise of bubbling waters came up from the foaming riverbed. Birds were singing, and a wholesome peace lay on the land.",Birds of Paradise,{2}{G},G
+"Suddenly as they drew nearer, a terrific baying and barking broke out, and a loud voice was heard shouting: “Grip! Fang! Wolf! Come on, lads!”",Cultivate,{G},G
+"“I sang of leaves, of leaves of gold, and leaves of gold there grew:
+Of wind I sang, a wind there came and in
+the branches blew.”",Elvish Archdruid,{2}{G},G
+"“The Three Rings of the Elves were not made as weapons of war or conquest—that is not their power. Those who made them did not desire strength or domination or hoarded wealth, but understanding, making, and healing, to preserve all things unstained.”
+—Elrond",Elvish Mystic,{1}{G}{G},G
+"“In Dwimordene, in Lórien
+Seldom have walked the feet of Men,
+Few mortal eyes have seen the light
+That lies there ever, long and bright.
+Galadriel! Galadriel!”",Elvish Piper,{G},G
+"“Do not think that only by singing amid the trees, nor even by the slender arrows of Elven- bows, is this land of Lothlórien maintained and defended against its Enemy.”
+—Galadriel",Elvish Visionary,{3}{G},G
+NA,Elvish Warmaster,{1}{G},G
+"“Elves seldom give unguarded advice, for advice is a dangerous gift, even from the wise to the wise.”
+—Gildor",Essence Warden,{1}{G},G
+"“The leaves were long, the grass was green,
+The hemlock-umbels tall and fair,
+And in the glade a light was seen
+Of stars in shadow shimmering.”
+—Tale of Tinúviel",Farhaven Elf,{G},G
+"“It’s a dangerous business, Frodo, going out of your door. You step into the Road, and if you don’t keep your feet, there is no knowing where you might be swept off to.”
+—Bilbo",Farseek,{2}{G},G
+NA,Genesis Wave,{1}{G},G
+NA,Gilded Goose,{X}{G}{G}{G},G
+"Ent the earthborn, old as mountains.",Great Oak Guardian,{G},G
+"“Sing hey! for the bath at close of day
+that washes the weary mud away!
+A loon is he that will not sing:
+O! Water Hot is a noble thing!”
+—The Bath Song",Harmonize,{5}{G},G
+"“Do not let your hearts be troubled. Even now, there is hope left.”
+—Galadriel",Heroic Intervention,{2}{G}{G},G
+NA,Hornet Queen,{1}{G},G
+NA,Inscription of Abundance,{4}{G}{G}{G},G
+"“Huorns began to move south, as soon as the gates were shut again. Their business was with Orcs I think.”
+—Merry",Lignify,{1}{G},G
+NA,Orchard Strider,{1}{G},G
+"They do not fear the Ringwraiths, for those who have dwelt in the Blessed Realm live at once in both worlds, and against both the Seen and the Unseen they have great power.",Overwhelming Stampede,{4}{G}{G},G
+"“There are no trees like the trees of that land.
+For in the autumn their leaves fall not, but turn to gold.”
+—Legolas",Paradise Druid,{3}{G}{G},G
+NA,Prosperous Innkeeper,{1}{G},G
+All through the winter Sam remained as patient as he could. Spring surpassed his wildest hopes.,Rampant Growth,{1}{G},G
+NA,Realm Seekers,{1}{G},G
+"“I have seen three ages in the West of the world, and many defeats, and many fruitless victories.”
+—Elrond",Reclamation Sage,{4}{G}{G},G
+"Sam planted the little silver nut in the Party Field where the tree had once been, and he wondered what would come of it.",Seeds of Renewal,{2}{G},G
+“Learn now the lore of Living Creatures!”,Sylvan Offering,{6}{G},G
+“Lembas is more strengthening than any food made by Men.”,Tireless Provisioner,{X}{G},G
+"“Elves are wondrous fair to look upon, or so ‘tis said.”
+—Faramir",Wood Elves,{2}{G},G
+NA,Woodfall Primus,{2}{G},G
+"There was a roar and a great confusion of noise. Fires leaped up and licked the roof. The throbbing grew to a great tumult, and the Mountain shook.",Anguished Unmaking,{5}{G}{G}{G},G
+"“The power of their master is in them, and they stand or fall by him.”
+—Gandalf",Extract from Darkness,{1}{W}{B},M
+The swift growth of the wild with briar and eglantine and trailing clematis was already drawing a veil over this place.,Growth Spiral,{3}{U}{B},M
+Umbar was a refuge for all the enemies of Gondor—a threat to its coastlands and to all traffic on the sea.,Hostage Taker,{G}{U},M
+Soon the rabbits were cut up and lying simmering in their pans with the bunched herbs.,Mortify,{2}{U}{B},M
+"“That’s your tone, is it? Change it, or we’ll change it for you. You little folk are getting too uppish.”",Notion Thief,{1}{W}{B},M
+“There is food in the wild. You need not be afraid of starving before winter comes.”,Savvy Hunter,{2}{U}{B},M
+"There rose a huge shape of shadow, impenetrable, lightning-crowned, filling all the sky. Enormous it reared above the world, terrible but impotent: for even as it leaned over them, a great wind took it, and it was all blown away.",Supreme Verdict,{1}{B}{G},M
+"“Magic rings are, well, magical; and they are rare and curious.”
+—Gandalf",Arcane Signet,{1}{W}{W}{U},M
+"“When it turns round the black rock, you’ll see it. Suddenly you’ll see it above you, and you’ll want to hide.”
+—Gollum",Basalt Monolith,{2},C
+"Gandalf’s fame in the Shire was due mainly to his skill with fires, smokes, and lights.",Chromatic Lantern,{3},C
+"“The Ñoldor, perhaps Fëanor himself, wrought the palantíri in days so long ago that the time cannot be measured in years.”
+—Gandalf",Commander's Sphere,{3},C
+NA,Door of Destinies,{3},C
+NA,Everflowing Chalice,{4},C
+NA,Heirloom Blade,{0},C
+NA,Herald's Horn,{3},C
+"“The strongest must seek a way, say you? But I say: let a plowman plow, but choose an otter for swimming, and choose an Elf for running light over grass and leaf.”
+—Legolas",Lightning Greaves,{3},C
+"The years had gnawed at it, and violent hands had maimed it. Its head was gone, and in its place was set in mockery a round rough-hewn stone, rudely painted in the likeness of a grinning face with one large eye in the midst of its forehead.",Mind Stone,{2},C
+Each cloak was fastened about the neck with a brooch like a green leaf veined with silver.,Pristine Talisman,{2},C
+"In the Second Age, Sauron was not yet evil to behold, and the Elven-smiths of Eregion received his aid and grew mighty in craft, whereas he learned all their secrets, and betrayed them, and forged secretly in the Mountain of Fire the One Ring to be their master.",Sol Ring,{3},C
+Faramir and Éowyn stood forth and set hand in hand; and all there drank to them and were glad.,Talisman of Conviction,{1},C
+"“Thus is the friendship of the Mark and of Gondor bound with a new bond, and the more do I rejoice.”
+—Éomer",Talisman of Progress,{2},C
+"“Grudgingly, Lord Denethor permitted me to search among his hoarded scrolls and books.”
+—Gandalf",Thought Vessel,{2},C
+NA,Trading Post,{2},C
+"“Seven stars and seven stones and one white tree.”
+—A rhyme of lore",Vanquisher's Banner,{4},C
+"All that is gold does not glitter,
+Not all those who wander are lost;
+The old that is strong does not wither,
+Deep roots are not reached by the frost.",Wayfarer's Bauble,{5},C
+"This was Frodo and Sam’s own country, and they found out now that they cared about it more than any other place in the world.",Well of Lost Dreams,{1},C
+"“Are these magic cloaks?” asked Pippin.
+“I do not know what you mean by that,” answered the leader of the Elves.",Whispersilk Cloak,{4},C
+"“The palantíri of the Kings of Old: the name meant ‘that which looks far away.’ The Orthanc-stone was one, and it is beyond Saruman’s art.”
+—Gandalf",Worn Powerstone,{3},C
+"“See you soon! I’ll bring you back an army of Tooks in the morning.”
+—Pippin",Access Tunnel,{3},C
+"The pleasant row of old Hobbit-holes in the bank on the north side of the Pool were deserted, and their little gardens that used to run down bright to the water’s edge were rank with weeds.",Ash Barrens,,C
+"“In the morning, I shall ride to Edoras to the gathering of the Mark.”
+—Théoden",Battlefield Forge,,C
+"“Shortcuts make long delays. The country is rough round here, and there are bogs and all kinds of difficulties down in the Marish.”
+—Pippin",Brushland,,C
+"The Shire had seldom seen so fair a summer, or so rich an autumn; the trees were laden with apples, honey was dripping in the combs, and the corn was tall and full.",Canopy Vista,,C
+"The water of the Morgulduin was silent and steaming, but the twisting vapor that rose from it was deadly cold.",Choked Estuary,,C
+"The dwellings of the Rohirrim lie under the wooded eaves of the White Mountains, hidden in mist and cloud.",Clifftop Retreat,,C
+The Hobbits of the Westfarthing said that one could see the Sea from the top of that tower; but no Hobbit had ever been known to climb it.,Command Tower,,C
+"As Frodo put on the Ring and claimed it for his own, the Power in Barad-dûr was shaken, and the Tower trembled from its foundations to its proud and bitter crown.",Crumbling Necropolis,,C
+"The Númenóreans had become great mariners, exploring all the seas eastward, and they began to yearn for the West and the forbidden waters, longing for the immortality of the Elves.",Desolate Lighthouse,,C
+"“Now the great cloud hangs over all the land between here and the Mountains of Shadow; and it is deepening. War has already begun.”
+—Errand-rider of Gondor",Dragonskull Summit,,C
+"“The world is indeed full of peril, and in it there are many dark places; in all lands, love is now mingled with grief.”
+—Haldir",Drowned Catacomb,,C
+"When winter first begins to bite
+and stones crack in the frosty night,
+when pools are black and trees are bare,
+‘tis evil in the Wild to fare.",Evolving Wilds,,C
+"“The oldest rowan-trees were planted by the Ents to try and please the Entwives; but they looked at them and smiled and said that they knew where whiter blossom and richer fruit were growing.”
+—Quickbeam",Exotic Orchard,,C
+"“There’s some devilry at work in the Shire.”
+—Sam",Field of Ruin,,C
+"The sound of running and falling water was loud, and the evening was filled with a faint scent of trees and flowers, as if summer still lingered in Elrond’s gardens.",Flooded Grove,,C
+"The road appeared lonely and forsaken, running down to empty ruins in the mist. But there was an evil feeling in the air.",Foreboding Ruins,,C
+"At either end of the Bridge there was a great spiked gate, very gloomy and un-Shirelike.",Fortified Village,,C
+"“A great smoke rose about us, vapor and steam. Ice fell like rain as I threw down my enemy.”
+—Gandalf",Frostboil Snarl,,C
+"The Shadow departed, and the Sun was unveiled, and light leaped forth.",Furycalm Snarl,,C
+"The light was grey, for the sun had not yet climbed over the black ridges of the Haunted Mountain before them.",Ghost Quarter,,C
+"“Beneath the Moon and under star
+he wandered far from northern strands …
+From gnashing of the Narrow Ice
+where shadow lies on frozen hills.”
+—Song of Eärendil",Glacial Fortress,,C
+"“As long as the Shire remains safe, I shall find wandering more bearable; somewhere there is a firm foothold, even if I cannot return.”
+—Frodo",Graypelt Refuge,,C
+"Legolas built a grey ship in Ithilien, and sailed down Anduin and so over Sea; and with him, it was said, went Gimli the Dwarf.",Hinterland Harbor,,C
+"The Shirrif-house had only one story, narrow windows, and was built of ugly pale bricks, badly laid.",Isolated Chapel,,C
+"“I do not believe that the world about us will ever again be as it was of old. For the Elves may soon pass to the Sea unhindered and leave Middle-earth forever.”
+—Haldir",Lonely Sandbar,,C
+NA,Murmuring Bosk,,C
+"Merry stood at the foot of the green mound, and he wept.",Necroblossom Snarl,,C
+"Merry gazed at the Púkel-men with wonder and pity, as they loomed up mournfully in the dusk.",Path of Ancestry,,C
+"There at Pelargir lay the main fleet of Umbar, fifty great ships and smaller vessels beyond count.",Port Town,,C
+"Aragorn saw the River like a ribbon laid down to Pelargir, and beyond that was a light on the sky that spoke of the Sea. And Gandalf said: “This is your realm, and the heart of the greater realm that shall be.”",Prairie Stream,,C
+"“You are in Rivendell, and you need not worry about anything for the present.”
+—Gandalf",Rejuvenating Springs,,C
+"“I’m leaving; for somewhere where I can finish my book, perhaps. I have thought of a nice ending for it: ‘And he lived happily ever after to the end of his days.’”
+—Bilbo",Rogue's Passage,,C
+"The houses and the holes of Shire-Hobbits were often large, and inhabited by large families. Sometimes many generations of relatives lived in comparative peace together in one ancestral and many-tunneled mansion.",Sandsteppe Citadel,,C
+"“I have walked far to find these leaves; for this plant does not grow in the bare hills, but in the thickets away south of the Road.”
+—Strider",Scattered Groves,,C
+At length they came to Weathertop; and it was then drawing towards evening and the shadow of the hill lay dark on the road.,Scoured Barrens,,C
+NA,Secluded Courtyard,,C
+Behold! The power of Mordor was scattering like dust in the wind.,Shineshadow Snarl,,C
+"Before the shadows of evening were long in happier lands, they went on again with only brief halts until they had come to the very midst of the Dead Marshes.",Smoldering Marsh,,C
+"“You should see the waterways of Dale, Frodo, and the fountains, and the pools! You should see the terraces and towers upon the Mountain’s sides!”
+—Glóin",Sulfur Falls,,C
+"A land defiled, diseased beyond all healing—unless the Great Sea should enter in and wash it with oblivion.",Sulfurous Springs,,C
+"Isengard began to fill up with black creeping streams and pools. The waters found their way down into shafts and spout holes, until at last Isengard looked like a huge flat saucepan, all steaming and bubbling.",Sunken Hollow,,C
+"The flowers glowed red and golden: snapdragons and sunflowers, and nasturtians trailing all over the turf walls and peeping in at the round windows.",Sunpetal Grove,,C
+"The earth groaned and quaked. The Towers of the Teeth swayed, tottered, and fell down. The mighty rampart crumbled and the Black Gate was hurled in ruin.",Terramorphic Expanse,,C
+"“To Rivendell, where Elves yet dwell
+In glades beneath the misty fell.”
+—Merry and Pippin",Thornwood Falls,,C
+"The high throne was empty. At the foot of its dais, upon the lowest step which was broad and deep, there was a stone chair, black and unadorned, for the Steward of Gondor.",Throne of the High City,,C
+"In the South, the realm of Gondor long endured, and for a while its splendor grew, its people building high towers and havens for many ships.",Tranquil Cove,,C
+"“Welcome to Caras Galadhon! Here is the city of the Galadhrim where dwell the Lord Celeborn and Galadriel, the Lady of Lórien.”
+—Haldir",Tranquil Thicket,,C
+"“But stream and pool is wet and cool: so nice for feet! We only wish to catch a fish, so juicy-sweet!”
+—Gollum",Underground River,,C
+Lórien seemed like a bright ship masted with enchanted trees sailing away from the margin of the grey and leafless world.,Vineglimmer Snarl,,C
+"“About that stream, on this side of the Great River, lies Rohan.”
+—Celeborn",Wind-Scarred Crag,,C
+NA,Windbrisk Heights,,C
+The Barrow-downs had as sinister a reputation in Hobbit-legend as the Forest itself.,Woodland Cemetery,,C
+"“There lie the woods of Lothlórien! That is the fairest of all the dwellings of my people.”
+—Legolas",Woodland Stream,,C
+"“In this place will I abide, and my heirs, unto the ending of the world.”","Aragorn, King of Gondor",,C
+NA,"Éowyn, Shieldmaiden",{1}{U}{R}{W},M
+NA,"Frodo, Adventurous Hobbit",{2}{U}{R}{W},M
+NA,"Galadriel, Elven-Queen",{W}{B},M
+NA,"Gandalf, Westward Voyager",{2}{G}{U},M
+NA,"Sam, Loyal Attendant",{3}{G}{U},M
+Over all his works a dark smoke hung and wrapped itself about the sides of Orthanc.,"Saruman, the White Hand",{1}{G}{W},M
+NA,"Sauron, Lord of the Rings",{1}{U}{B}{R},M
+"“Beregond, if you can, do something to stop any dreadful thing from happening.”
+—Pippin",Beregond of the Guard,{5}{U}{B}{R},M
+“The Realm of Sauron is ended forever!”,Champions of Minas Tirith,{3}{W},W
+NA,Field-Tested Frying Pan,{5}{W},W
+"On the growing of vegetables, especially potatoes, Master Hamfast Gamgee was recognized as the leading authority by all in the neighborhood.",The Gaffer,{2}{W},W
+"“Ónen i-Estel Edain, ú-chebin estel anim.”","Gilraen, Dúnedain Protector",{2}{W},W
+"“I hope they haven’t forgotten how to fight.”
+—Gimli",Grey Host Reinforcements,{2}{W},W
+NA,"Gwaihir, Greatest of the Eagles",{3}{W},W
+NA,Lossarnach Captain,{4}{W},W
+"“If indeed you look only, as you say, for records of ancient days and the beginnings of the City, read on!”",Archivist of Gondor,{3}{W},W
+NA,Corsairs of Umbar,{2}{U},U
+"“You may triumph on the field, for a day. But against the Power that now arises there is no victory.”","Denethor, Stone Seer",{3}{U},U
+NA,Fealty to the Realm,{1}{U},U
+NA,Monstrosity of the Lake,{4}{U},U
+"She seemed tall beyond measurement, and beautiful beyond enduring, terrible and worshipful.",Raise the Palisade,{4}{U},U
+"“This is worse than Mordor! Much worse, in a way. It comes home to you, as they say, because it is a home, and you remember it before it was all ruined.”
+—Sam",Subjugate the Hobbits,{4}{U},U
+NA,Trap the Trespassers,{5}{U}{U},U
+"He hated the Ring and loved it, as he hated and loved himself.","Gollum, Obsessed Stalker",{2}{U},U
+NA,"Lobelia, Defender of Bag End",{1}{B},B
+NA,Rapacious Guest,{2}{B},B
+NA,"Shelob, Dread Weaver",{2}{B},B
+"“We must hasten. The beacons of Gondor are alight. War is kindled.”
+—Gandalf",Call for Aid,{3}{B},B
+NA,Cavern-Hoard Dragon,{4}{R},R
+“No Dwarf could be unmoved by such loveliness.”,Gimli of the Glittering Caves,{7}{R}{R},R
+NA,Orcish Siegemaster,{2}{R},R
+"The Mûmakil of Harad were great beasts, like moving houses, capable of dragging huge towers and engines to war.",Rampaging War Mammoth,{2}{R},R
+"From afar, Arwen watched over Aragorn, and in hope, she made for him a great and kingly standard.","Arwen, Weaver of Hope",{5}{R}{R},R
+"“Boom, boom, rumboom, boorar, boom boom, dahrar boom boom, dahrar boom…”",Assemble the Entmoot,{1}{G}{G},G
+"His name, of course, was Proudfoot.",Feasting Hobbit,{3}{G},G
+"“None of the Orcs will ever return out of Lórien.”
+—Haldir",Galadhrim Ambush,{1}{G},G
+“Now you must be brought before the Lord and the Lady.”,"Haldir, Lórien Lieutenant",{3}{G},G
+NA,Legolas Greenleaf,{X}{G},G
+"“Whereas the light perceives the very heart of the darkness, its own secret has not been discovered.”
+—Haldir",Mirkwood Elk,{2}{G},G
+NA,Motivated Pony,{5}{G},G
+The habit of building farmhouses and barns began among the inhabitants of the Marish down by the Brandywine.,Prize Pig,{4}{G},G
+NA,Travel Through Caradhras,{1}{G},G
+A shrill yell went up— they had been seen. There was a ring and clash of steel.,Windswift Slice,{5}{G},G
+NA,The Balrog of Moria,{2}{G},G
+NA,Banquet Guests,{4}{B}{B}{R},M
+NA,"Bilbo, Birthday Celebrant",{X}{G}{W},M
+"“Long have I wandered by roads forgotten, seeking the house of Elrond.”","Boromir, Gondor's Hope",{W}{B}{G},M
+NA,Círdan the Shipwright,{2}{W}{U},M
+NA,Elrond of the White Council,{3}{G}{U},M
+NA,"Éomer, King of Rohan",{3}{G}{U},M
+“There are but two courses: to hide the Ring forever; or to unmake it.”,Erestor of the Council,{3}{R}{W},M
+“The last Steward of Gondor begs leave to surrender his office.”,"Faramir, Steward of Gondor",{1}{G}{U},M
+“So it’s begun at last! I’ve been itching for trouble all this year.”,Farmer Cotton,{1}{W}{U},M
+"“A sword-day, a red day, ere the sun rises! Ride now, ride now! Ride to Gondor!”",Forth Eorlingas!,{X}{G}{W},M
+NA,"Gríma, Saruman's Footman",{X}{R}{W},M
+NA,Lidless Gaze,{2}{U}{B},M
+NA,Lord of the Nazgûl,{2}{B}{R},M
+NA,"Merry, Warden of Isengard",{3}{U}{B},M
+"Under the boughs of Mirkwood, there was deadly strife of Elves and evil beings.",Mirkwood Trapper,{1}{G}{W},M
+NA,Moria Scavenger,{1}{G}{U},M
+NA,"Pippin, Warden of Isengard",{1}{B}{R},M
+NA,"Radagast, Wizard of Wilds",{B}{G},M
+NA,Riders of Rohan,{2}{G}{U},M
+NA,Sail into the West,{3}{R}{W},M
+NA,Summons of Saruman,{2}{G}{U},M
+"“Is it not said that no foe has ever taken the Hornburg, if men defended it?”
+—Aragorn",Taunt from the Rampart,{X}{U}{R},M
+"“The Dwarves tell no tale; but even as mithril was the foundation of their wealth, so also it was their destruction.”
+—Gandalf","Too Greedily, Too Deep",{3}{R}{W},M
+"“I go my own way, but your way may go along with mine for a while.”","Treebeard, Gracious Host",{5}{B}{R},M
+NA,Wake the Dragon,{2}{G}{W},M
+NA,Crown of Gondor,{4}{B}{R},M
+NA,Hithlain Rope,{3},C
+NA,Lothlórien Blade,{2},C
+"“Rivendell is a perfect house, whether you like food or sleep or storytelling or singing, or a pleasant mixture of them all.”
+—Bilbo",Model of Unity,{3},C
+"While the power of Sauron grew, light and living things forsook his borders.",Relic of Sauron,{3},C
+NA,The Black Gate,{4},C
+,,,C

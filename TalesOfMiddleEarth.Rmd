@@ -34,6 +34,9 @@ library(dplyr)
 library(ggplot2)
 library(stringi)
 
+library(tidytext)
+library(stringr)
+
 library(tm)
 
 options(scipen = 999)
@@ -87,8 +90,8 @@ ft_clean <- ft%>%
          book = NA,
          chapter = NA)
 
-```
 
+```
 
 #### LOTR Book Import
 
@@ -407,6 +410,11 @@ tome$chapter <- as.character(tome$chapter)
 tome_revised <- read.csv("./tome_revised.csv")%>%
   mutate(book = substr(chapter, 1, 2))
 
+tome_revised_byChapter <- tome_revised%>%
+  order(tome_revised$chapter)
+
+??sort
+
 ```
 
 ## Totals per Chapter
@@ -477,5 +485,293 @@ tome_summary%>%
     facet_wrap(~cardColorList)+
     labs(title="Count of MtG flavor text in each chapter of LOTR",
        subtitle="Cards from 'Lord of the Rings: Tales of Middle Earth' sorted by chapter and color")
+
+```
+
+# Tokenized Sentences
+
+Redo-ing the imports for the books
+
+```{r redo imports for books}
+
+#Create a table of all the book chapters
+#Start with creating tables, then row-binding it to a parent table
+
+import_txt_to_tibble <- function(folder_path, abbr) {
+  file_list <- list.files(folder_path, pattern="\\.txt$", full.names=TRUE)
+
+  imported_data <- tibble()
+  
+  for (i in seq_along(file_list)) {
+    file_path <- file_list[i]
+    
+    #read data
+    text <- readLines(file_path)
+
+    #create table from this data
+    tempTibble <- tibble(text)%>%
+      mutate(book=abbr,
+             chapter=i,
+             row = row_number())%>%
+      rename(text = file_data)
+    
+    imported_data <- imported_data%>%
+      rbind(tempTibble)
+  }
+  
+  
+  return(imported_data)
+}
+
+fellowship <- import_txt_to_tibble("./fellowship-chapters", "fs")
+twotowers <- import_txt_to_tibble("./twotowers-chapters", "tt")
+return <- import_txt_to_tibble("./return-chapters", "rk")
+
+fellowship <- fellowship%>%
+  rename(text = file_data)
+
+twotowers <- twotowers%>%
+  rename(text = file_data)
+
+return <- return%>%
+  rename(text = file_data)
+
+```
+
+Tokenizing the sentences, then combining 
+
+```{r fellowship sentence tokenization}
+
+library(stringr)
+library(tidytext)
+
+#Fellowship
+
+fellowship_conv <- fellowship
+
+fellowship_conv$text <- iconv(fellowship_conv$text, from="")
+
+fs_sentences <- fellowship_conv%>%
+  unnest_tokens(sentence, text, token = "sentences")%>%
+  mutate(text_clean = noquote(sentence),
+         text_clean = str_replace(text_clean, " '", ""),
+         text_clean = str_replace(text_clean, " ’", ""),
+         text_clean = str_replace(text_clean, "'", ""),
+         text_clean = str_replace(text_clean, "’", ""),
+          text_clean = str_replace(text_clean, "’", ""),
+         text_clean = str_replace(text_clean, "'", ""))%>%
+  rename(text = text_clean)%>%
+  mutate(eos = ifelse(grepl(".*[!.?]$", text), 1, 0))
+
+comb <- ""
+  
+# If the current row has a period, assign the combination to "text_combined" at the current index.
+
+for (i in 1:nrow(fs_sentences)) {
+  #for each row, if the row before it has a period, then clear comb. If the row before it has no period, add that string to the beginning of comb.
+  comb <- ifelse(fs_sentences$eos[i-1] == 1, "", paste(comb, fs_sentences$text[i-1],  sep=" "))
+  
+  # If the current row has a period, assign comb and the current text to "text_combined" at the current index.
+  fs_sentences$text_combined[i] <- paste(comb, fs_sentences$text[i])
+}
+
+fs_sentences_clean <- fs_sentences%>%
+  filter(eos==1)%>%
+  dplyr::select(-sentence, -text, -eos)
+
+```
+
+```{r two towers sentence tokenization}
+
+#twotowers
+
+twotowers_conv <- twotowers
+
+twotowers_conv$text <- iconv(twotowers_conv$text, from="")
+
+tt_sentences <- twotowers_conv%>%
+  unnest_tokens(sentence, text, token = "sentences")%>%
+  mutate(text_clean = noquote(sentence),
+         text_clean = str_replace(text_clean, " '", ""),
+         text_clean = str_replace(text_clean, " ’", ""),
+         text_clean = str_replace(text_clean, "'", ""),
+         text_clean = str_replace(text_clean, "’", ""),
+          text_clean = str_replace(text_clean, "’", ""),
+         text_clean = str_replace(text_clean, "'", ""))%>%
+  rename(text = text_clean)%>%
+  mutate(eos = ifelse(grepl(".*[!.?]$", text), 1, 0))
+
+comb <- ""
+  
+# If the current row has a period, assign the combination to "text_combined" at the current index.
+
+for (i in 1:nrow(tt_sentences)) {
+  #for each row, if the row before it has a period, then clear comb. If the row before it has no period, add that string to the beginning of comb.
+  comb <- ifelse(tt_sentences$eos[i-1] == 1, "", paste(comb, tt_sentences$text[i-1],  sep=" "))
+  
+  # If the current row has a period, assign comb and the current text to "text_combined" at the current index.
+  tt_sentences$text_combined[i] <- paste(comb, tt_sentences$text[i])
+}
+
+tt_sentences_clean <- tt_sentences%>%
+  filter(eos==1)%>%
+  dplyr::select(-sentence, -text, -eos)
+
+```
+
+```{r return sentence tokenization}
+
+#return of the king
+
+return_conv <- return
+
+return_conv$text <- iconv(return_conv$text, from="")
+
+rk_sentences <- return_conv%>%
+  unnest_tokens(sentence, text, token = "sentences")%>%
+  mutate(text_clean = noquote(sentence),
+         text_clean = str_replace(text_clean, " '", ""),
+         text_clean = str_replace(text_clean, " ’", ""),
+         text_clean = str_replace(text_clean, "'", ""),
+         text_clean = str_replace(text_clean, "’", ""),
+          text_clean = str_replace(text_clean, "’", ""),
+         text_clean = str_replace(text_clean, "'", ""))%>%
+  rename(text = text_clean)%>%
+  mutate(eos = ifelse(grepl(".*[!.?]$", text), 1, 0))
+
+comb <- ""
+  
+# If the current row has a period, assign the combination to "text_combined" at the current index.
+
+for (i in 1:nrow(rk_sentences)) {
+  #for each row, if the row before it has a period, then clear comb. If the row before it has no period, add that string to the beginning of comb.
+  comb <- ifelse(rk_sentences$eos[i-1] == 1, "", paste(comb, rk_sentences$text[i-1],  sep=" "))
+  
+  # If the current row has a period, assign comb and the current text to "text_combined" at the current index.
+  rk_sentences$text_combined[i] <- paste(comb, rk_sentences$text[i])
+}
+
+rk_sentences_clean <- rk_sentences%>%
+  filter(eos==1)%>%
+  dplyr::select(-sentence, -text, -eos)
+
+```
+
+```{r combine everything}
+
+lotr <- rbind(fs_sentences_clean, tt_sentences_clean, rk_sentences_clean)%>%
+  mutate(key_lotr=row_number())
+
+```
+
+# Fuzzy matching the current flavor text 
+
+```{r first fuzzymatching trial}
+
+library(fedmatch)
+library(data.table)
+
+flavortext_corp <- ft_clean_corp%>%
+  mutate(key_ft=row_number())%>%
+  dplyr::select(key_ft, card_name, text_corpus)
+
+fuzzy_result <- merge_plus(data1 = flavortext_corp,
+                          data2 = lotr,
+                          by.x = "text_corpus",
+                          by.y = "text_combined", match_type = "fuzzy",
+                          fuzzy_settings = build_fuzzy_settings(method = "wgt_jaccard", nthread = 2,
+                                                                maxDist = .88),
+                          unique_key_1 = "key_ft",
+                          unique_key_2 = "key_lotr")
+
+fuzzyMatches <- fuzzy_result$matches
+
+print(fuzzy_result$matches)
+
+```
+
+```{r export}
+
+write_csv(fuzzyMatches, "tome_readingOrder_V01.csv")
+
+```
+
+# Commander text import
+
+```{r commander flavor text import}
+
+ft_edh <- read_csv("scryfall_extract_commander.csv")
+
+ft_edh <- ft_edh%>%
+  filter(!(is.na(Text)))%>%
+  filter(!duplicated(Text))%>%
+  mutate(text_clean = stri_replace_all_regex(Text, 
+                                             pattern = c("“", "”", "—(.+)"),
+                                             replacement = c(""),
+                                             vectorize=FALSE),
+         book = NA,
+         chapter = NA)%>%
+  dplyr::select(-Text, -cost)
+
+```
+
+
+
+```{r commander flavortext matches no corp}
+
+ft_edh_clean <- ft_edh%>%
+  mutate(key_ft=row_number())%>%
+  dplyr::select(key_ft, card_name, text_clean)
+
+fuzzy_result_edh <- merge_plus(data1 = ft_edh_clean,
+                          data2 = lotr,
+                          by.x = "text_clean",
+                          by.y = "text_combined", match_type = "fuzzy",
+                          fuzzy_settings = build_fuzzy_settings(method = "wgt_jaccard", nthread = 2,
+                                                                maxDist = .88),
+                          unique_key_1 = "key_ft",
+                          unique_key_2 = "key_lotr")
+
+fuzzyMatches_edh <- fuzzy_result_edh$matches
+
+print(fuzzy_result$matches)
+
+```
+
+```{r export edh}
+
+write_csv(fuzzyMatches_edh, "tome_readingOrder__V01.csv")
+
+```
+
+```{r import manual revisions}
+
+matches_edh_revised <- read_csv("tome_readingOrder_edh_V02.csv")%>%
+  rename(flavortext = text_clean)
+
+matches_base_revised <- read_csv("tome_readingOrder_V01.csv")%>%
+  rename(text_combined = `lotr sentence`)
+
+```
+
+```{r combine revisions}
+
+g(matches_base_revised)
+g(matches_edh_revised)
+
+combined_sets <- matches_edh_revised%>%
+  rbind(matches_base_revised)%>%
+  rename(location = line)
+
+combined_sets$book <- factor(combined_sets$book, levels=c("fs", "tt", "rk"))
+
+combined_sets <- arrange(combined_sets, book, chapter, row)%>%
+  filter(!is.na(card_name))
+
+```
+
+```{r}
+
+write_csv(combined_sets, "tome_readingOrder_complete_V01.csv")
 
 ```
